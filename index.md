@@ -2,12 +2,6 @@
 layout: home
 title: Home
 ---
-{% if site.photo %}
-<div class="text-center">
-  <img src="{{ site.photo }}" alt="{{ site.author.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
-</div>
-{% endif %}
-
 <style>
   .home-content, .post-content, .main-content {
     max-width: 950px !important; 
