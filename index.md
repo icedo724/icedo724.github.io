@@ -10,7 +10,7 @@ title: Home
 
 <style>
   .home-content, .post-content, .main-content {
-    max-width: 950px !important;
+    max-width: 950px !important; 
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -20,15 +20,24 @@ title: Home
   p, li {
     word-break: keep-all; 
     line-height: 1.9;    
-    font-size: 1.05em;  
-    color: #333;       
-    margin-bottom: 1.2em; 
+    font-size: 1.05em;   
+    color: #333;         
+    margin-bottom: 1.2em;
+    letter-spacing: -0.02em;
+  }
+  
+  li {
+      margin-bottom: 0.8em; 
   }
 
   h1, h2, h3 {
     margin-top: 1.8em;
     margin-bottom: 0.8em;
     font-weight: 700;
+  }
+  
+  h2 {
+      margin-bottom: 1em;
   }
 </style>
 
