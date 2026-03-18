@@ -1,7 +1,7 @@
 <div id="particles-js" class="fullscreen">
   <div class="jumbotron text-center">
     {% if site.photo %}
-    <img class="particles-photo" src="{{ site.photo }}" style="width: 270px; height: 270px; object-fit: cover;" />
+    <img class="particles-photo" src="{{ site.photo }}" style="width: 270px; height: 0px; object-fit: cover;" />
     {% endif %}
     <h1 class="particles-title">{{ site.title }}</h1>
     <h1 class="particles-subtitle">{{ site.taglong }}</h1>
@@ -43,8 +43,15 @@
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
       {% endif %}
       {% if site.profile.projects %}
-      <a class="particles-icon" href="{{ site.baseurl }}/projects/" title="Projects"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" style="color: inherit;"><circle cx="12" cy="12" r="10"/><rect x="7" y="8" width="8" height="10" rx="1" fill="none" stroke="#ffffff"/><rect x="9" y="6" width="8" height="10" rx="1" fill="none" stroke="#ffffff"/></svg></a>
-      {% endif %}
+      <a class="particles-icon" href="{{ site.baseurl }}/projects/" title="Projects">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+          <path d="M9 9L6 12L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15 9L18 12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13 7L11 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      {% endif %}
     </div>
   </div>
   <div class="particles-scroll">
