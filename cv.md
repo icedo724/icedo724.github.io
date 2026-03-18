@@ -2,6 +2,12 @@
 layout: cv
 title: CV
 ---
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+  body, h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif !important;
+  }
+</style>
 
 # 학력 및 자격
 
