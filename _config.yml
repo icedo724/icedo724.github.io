@@ -12,16 +12,16 @@ tagshort: "데이터 분석 포트폴리오"
 # author settings
 author:
   name: "조민서"
-  email: "icedo724@gmail.com"
-photo: assets/files/photo.jpg
+  email: "본인이메일@gmail.com"
+# photo: assets/files/photo.jpg
 joblines:
   - Data Analyst
-address: 경기도 의왕시
-phone: PHONE_PLACEHOLDER
+# address: Foobar Hall 1.23
+# phone: +1 234 567 890
 
 # profile links
 profile:
-  github: github: https://github.com/icedo724
+  github: https://github.com/icedo724
   cv: true
 
 # build settings
@@ -41,4 +41,3 @@ plugins:
 
 sass:
   sourcemap: never
-  
