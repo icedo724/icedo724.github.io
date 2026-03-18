@@ -16,14 +16,13 @@ author:
 # photo: assets/files/photo.jpg
 joblines:
   - Data Analyst
-address: 경기도 의왕시
-phone: PHONE_PLACEHOLDER
+address: "경기도 의왕시"
+phone: "PHONE_PLACEHOLDER"
 
 # profile links
 profile:
   github: https://github.com/icedo724
   cv: true
-  index:true
 
 # build settings
 permalink: pretty
