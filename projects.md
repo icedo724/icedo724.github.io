@@ -8,11 +8,17 @@ permalink: /projects/
   body, h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif !important;
   }
+  h2 {
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 8px;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    color: #222;
+  }
 </style>
 
 # 주요 프로젝트
 
----
 ## 실무 프로젝트
 
 ### 거래처 데이터 베이스 구축 및 분석
@@ -53,7 +59,7 @@ permalink: /projects/
 * 포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.
 * 🔗 [GitHub](https://github.com/icedo724/Loracle)
 
-## 공모전
+## 공모전 및 기타 저장소
 
 ### 제6회 교육 공공데이터 분석·활용대회
 * 서울특별시 특수유아 분포와 특수교사 배치 현황 간의 불균등을 검증하기 위해 다중 회귀 모델링 수행 및 정책적 개선안 도출.
