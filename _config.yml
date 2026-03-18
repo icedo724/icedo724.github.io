@@ -6,33 +6,22 @@ url: "https://icedo724.github.io"
 theme: cvless
 
 # site settings
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
+taglong: "데이터 분석가 조민서의 포트폴리오입니다."
+tagshort: "데이터 분석 포트폴리오"
 
 # author settings
 author:
-  name: Place Holder
-  email: username@domain.com
+  name: "조민서"
+  email: "icedo724@gmail.com"
 photo: assets/files/photo.jpg
 joblines:
-  - University of Jekyll
-  - Department of Themes
-  - 123 Main St, Anytown, USA
-address: Foobar Hall 1.23
-phone: +1 234 567 890
+  - Data Analyst
+address: 경기도 의왕시
+phone: PHONE_PLACEHOLDER
 
 # profile links
 profile:
-  facebook: https://www.facebook.com/username
-  x: https://x.com/username
-  mastodon: https://mastodon.social/@username
-  bluesky: https://bsky.app/profile/username.bsky.social
-  instagram: https://www.instagram.com/username
-  linkedin: https://www.linkedin.com/in/username
-  xing: https://www.xing.com/profile/username
-  stackoverflow: https://stackoverflow.com/users/0000000/username
-  medium: https://medium.com/@username
-  github: https://github.com/username
+  github: github: https://github.com/icedo724
   cv: true
 
 # build settings
