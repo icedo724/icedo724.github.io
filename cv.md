@@ -9,6 +9,17 @@ title: CV
   }
 </style>
 
+<div style="text-align: center; margin-bottom: 40px; margin-top: 20px;">
+  <h1 style="margin-bottom: 5px; font-size: 2.5em; font-weight: 800;">{{ site.author.name }}</h1>
+  <h3 style="color: #666; margin-top: 0; font-weight: 400; letter-spacing: 1px;">{{ site.joblines[0] }}</h3>
+  <p style="margin-top: 15px; font-size: 1.05em; color: #555;">
+    📧 <a href="mailto:{{ site.author.email }}" style="color: #555; text-decoration: none;">{{ site.author.email }}</a> &nbsp;|&nbsp; 
+    📞 {{ site.phone }} &nbsp;|&nbsp; 
+    🏠 {{ site.address }}
+  </p>
+</div>
+<hr style="border: 0; height: 1px; background: #ddd; margin-bottom: 40px;">
+
 # 학력 및 자격
 
 ## 학력
