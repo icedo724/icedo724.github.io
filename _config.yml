@@ -1,19 +1,19 @@
 title: "데이터 분석가 조민서"
-description: "안녕하세요 데이터 분석가 조민서입니다."
+description: "안녕하세요 조민서입니다."
 baseurl: ""
 url: "https://icedo724.github.io"
 
 theme: cvless
 
 # site settings
-taglong: "데이터 분석가 조민서의 포트폴리오입니다."
+taglong: "누구보다 깊게 소비했기에, 누구보다 정확하게 분석합니다."
 tagshort: "데이터 분석 포트폴리오"
 
 # author settings
 author:
   name: "조민서"
   email: "icedo724@gmail.com"
-# photo: assets/files/photo.jpg
+  photo: "https://lh3.googleusercontent.com/d/128noRPLwgjcPt2WlWhQQMFdRrH0EWsMQ"
 joblines:
   - Data Analyst
 address: "경기도 의왕시"
