@@ -12,12 +12,12 @@ tagshort: "데이터 분석 포트폴리오"
 # author settings
 author:
   name: "조민서"
-  email: "본인이메일@gmail.com"
+  email: "icedo724@gmail.com"
 # photo: assets/files/photo.jpg
 joblines:
   - Data Analyst
-# address: Foobar Hall 1.23
-# phone: +1 234 567 890
+address: 경기도 의왕시
+phone: PHONE_PLACEHOLDER
 
 # profile links
 profile:
