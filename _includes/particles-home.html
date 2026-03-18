@@ -42,16 +42,9 @@
       {% if site.profile.cv != false %}
       <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
       {% endif %}
-      {% if site.profile.projects %}
-      <a class="particles-icon" href="{{ site.baseurl }}/projects/" title="Projects">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
-          <path d="M9 9L6 12L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M15 9L18 12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M13 7L11 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-      {% endif %}
+      {%- if site.profile.projects -%}
+      <a class="particles-icon" href="{{ site.baseurl }}/projects/" title="Projects"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: inherit;"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></a>
+      {%- endif -%}
     </div>
   </div>
   <div class="particles-scroll">
