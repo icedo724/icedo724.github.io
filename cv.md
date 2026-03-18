@@ -9,8 +9,21 @@ title: CV
   }
 </style>
 
+# 학력 및 자격
+
+## 학력
+* **한국방송통신대학교** | 통계·데이터과학과 (2024.09 ~ 재학 중)
+* **숭실대학교 전산원** | 컴퓨터공학과 (2019.03 ~ 2023.08)
+
+## 교육
+* **프로그래머스 데이터 분석 데브코스** | 부트캠프 수료 (2023.11 ~ 2024.04)
+
+## 자격
+* **SQLD** | 한국데이터산업진흥원 (2026.03)
+* **빅데이터분석기사** | 한국데이터산업진흥원 (2025.12)
+* **정보처리산업기사** | 한국산업인력공단 (2021.08)
+
 <div style="text-align: center; margin-bottom: 40px; margin-top: 20px;">
-  <h1 style="margin-bottom: 5px; font-size: 2.3em; font-weight: 400;">{{ site.author.name }}</h1>
   <p style="margin-top: 15px; font-size: 0.7em; color: #555; display: flex; justify-content: center; align-items: center; gap: 7px; flex-wrap: wrap;">
     
     <span style="display: flex; align-items: center; gap: 4px;">
@@ -42,17 +55,3 @@ title: CV
   </p>
 </div>
 <hr style="border: 0; height: 1px; background: #ddd; margin-bottom: 40px;">
-
-# 학력 및 자격
-
-## 학력
-* **한국방송통신대학교** | 통계·데이터과학과 (2024.09 ~ 재학 중)
-* **숭실대학교 전산원** | 컴퓨터공학과 (2019.03 ~ 2023.08)
-
-## 교육
-* **프로그래머스 데이터 분석 데브코스** | 부트캠프 수료 (2023.11 ~ 2024.04)
-
-## 자격
-* **SQLD** | 한국데이터산업진흥원 (2026.03)
-* **빅데이터분석기사** | 한국데이터산업진흥원 (2025.12)
-* **정보처리산업기사** | 한국산업인력공단 (2021.08)
