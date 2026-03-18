@@ -12,19 +12,21 @@ title: Home
 단순한 수치를 넘어, 탄탄한 논리적 근거를 바탕으로 데이터 이면에 숨겨진 비즈니스 스토리를 명쾌하게 풀어내고자 합니다.
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    // 1. 화면에서 기존 CV 아이콘 찾기
-    const cvLink = document.querySelector('a[href*="/cv"]');
+window.addEventListener('load', function() {
+    // 1. 화면에서 기존 CV 아이콘 찾기 (조금 더 꼼꼼하게 검색)
+    var cvLink = document.querySelector('a[href*="/cv"]') || document.querySelector('a[title="CV"]');
     
-    if (cvLink) {
+    // 중복 생성을 막고, CV 아이콘이 있을 때만 실행
+    if (cvLink && !document.getElementById('custom-proj-btn')) {
         // 2. 프로젝트 링크 뼈대 만들기
-        const projLink = document.createElement('a');
+        var projLink = document.createElement('a');
+        projLink.id = 'custom-proj-btn';
         projLink.href = '/projects/';
         projLink.title = 'Projects';
-        projLink.className = cvLink.className; // CV 아이콘과 완전히 동일한 테마 디자인 적용
+        projLink.className = cvLink.className; 
         
-        // 3. 프로젝트 느낌이 나는 '코드(Code)' 모양의 SVG 아이콘 삽입
-        projLink.innerHTML = `<svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M13.5 6L10 18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.5 8.5L3 12L6.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M17.5 8.5L21 12L17.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>`;
+        // 3. 프로젝트 느낌이 나는 '코드(</>)' 모양의 SVG 아이콘 삽입
+        projLink.innerHTML = '<svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M13.5 6L10 18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.5 8.5L3 12L6.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M17.5 8.5L21 12L17.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>';
         
         // 4. CV 아이콘 바로 옆(뒤)에 딱 붙여서 삽입
         cvLink.parentNode.insertBefore(projLink, cvLink.nextSibling);
