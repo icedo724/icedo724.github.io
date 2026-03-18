@@ -23,7 +23,7 @@ phone: "PHONE_PLACEHOLDER"
 profile:
   github: https://github.com/icedo724
   cv: true
-  stackoverflow: /projects/
+  projects: true
 
 # build settings
 permalink: pretty

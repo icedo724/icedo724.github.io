@@ -1,50 +1,43 @@
-<div id="particles-js" class="fullscreen">
-  <div class="jumbotron text-center">
-    {% if site.photo %}
-    <img class="particles-photo" src="{{ site.photo }}" />
-    {% endif %}
-    <h1 class="particles-title">{{ site.title }}</h1>
-    <h1 class="particles-subtitle">{{ site.taglong }}</h1>
-    <div class="nowrap">
-      {% if site.profile.facebook %}
-      <a class="particles-icon" href="{{ site.profile.facebook }}">{% include svg/facebook.svg %}</a>
-      {% endif %}
-      {% if site.profile.x %}
-      <a class="particles-icon" href="{{ site.profile.x }}">{% include svg/x.svg %}</a>
-      {% endif %}
-      {% if site.profile.mastodon %}
-      <a class="particles-icon" rel="me" href="{{ site.profile.mastodon }}">{% include svg/mastodon.svg %}</a>
-      {% endif %}
-      {% if site.profile.bluesky %}
-      <a class="particles-icon" href="{{ site.profile.bluesky }}">{% include svg/bluesky.svg %}</a>
-      {% endif %}
-      {% if site.profile.instagram %}      
-      <a class="particles-icon" href="{{ site.profile.instagram }}">{% include svg/instagram.svg %}</a>
-      {% endif %}
-      {% if site.profile.linkedin %}
-      <a class="particles-icon" href="{{ site.profile.linkedin }}">{% include svg/linkedin.svg %}</a>
-      {% endif %}
-      {% if site.profile.xing %}
-      <a class="particles-icon" href="{{ site.profile.xing }}">{% include svg/xing.svg %}</a>
-      {% endif %}
-      {% if site.profile.stackoverflow %}
-      <a class="particles-icon" href="{{ site.profile.stackoverflow }}">{% include svg/stackoverflow.svg %}</a>
-      {% endif %}
-      {% if site.profile.medium %}
-      <a class="particles-icon" href="{{ site.profile.medium }}">{% include svg/medium.svg %}</a>
-      {% endif %}
-      {% if site.profile.github %}
-      <a class="particles-icon" href="{{ site.profile.github }}">{% include svg/github.svg %}</a>
-      {% endif %}
-      {% if site.author.email %}
-      <a class="particles-icon" href="mailto:{{ site.author.email }}">{% include svg/mail.svg %}</a>
-      {% endif %}
-      {% if site.profile.cv != false %}
-      <a class="particles-icon" href="cv">{% include svg/cv-circled.svg %}</a>
-      {% endif %}
-    </div>
+<div class="row w-100 mx-0 justify-content-center align-items-center">
+  <div class="particles-container px-0" id="particles-js">
+    {% include particles-inner.html %}
   </div>
-  <div class="particles-scroll">
-    <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
+  <div id="home-content">
+    <div id="author-info">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </div>
+    <div class="social-links-container px-0">
+      {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}" title="Email">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"></path></svg>
+      </a>
+      {% endif %}
+      
+      {% if site.profile.github %}
+      <a href="{{ site.profile.github }}" title="GitHub">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M16 22.0268V19.1568C16 18.2668 15.71 17.5268 15.13 16.9668C17.5 16.6668 20 16.0368 20 12.1268C20 11.0368 19.64 10.1368 19.04 9.4268C19.14 9.1768 19.49 8.1668 18.94 6.8268C18.94 6.8268 18.11 6.5568 16.2 7.8268C15.42 7.6068 14.59 7.4968 13.76 7.4968C12.93 7.4968 12.1 7.6068 11.32 7.8268C9.41 6.5568 8.58 6.8268 8.58 6.8268C8.03 8.1668 8.38 9.1768 8.48 9.4268C7.88 10.1368 7.52 11.0368 7.52 12.1268C7.52 16.0368 10.02 16.6668 12.39 16.9668C11.91 17.4368 11.56 18.1568 11.56 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 19C4 20.5 4 16.5 2 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+      {% endif %}
+      
+      {% if site.profile.linkedin %}
+      <a href="{{ site.profile.linkedin }}" title="LinkedIn">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-width="1.5"></path><path d="M7 17V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 13.75V10H14.1667C15.7315 10 17 11.2315 17 12.75V17M11 13.75C11 12.75 11 12.75 11 13.75Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 8.01L7.01 7.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+      {% endif %}
+
+      {% if site.profile.cv %}
+      <a href="{{ site.baseurl }}/cv/" title="CV">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M12 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3H8C5.23858 3 3 5.23858 3 8V11.5" stroke="currentColor" stroke-width="1.5"></path><path d="M2 15L5.5 18.5L10 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 10H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 7H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+      {% endif %}
+      
+      {% if site.profile.projects %}
+      <a href="{{ site.baseurl }}/projects/" title="Projects">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M13.5 6L10 18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6.5 8.5L3 12L6.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M17.5 8.5L21 12L17.5 15.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+      {% endif %}
+      
+    </div>
   </div>
 </div>
