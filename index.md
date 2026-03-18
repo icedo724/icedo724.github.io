@@ -15,7 +15,7 @@ title: Home
     word-break: keep-all; 
     line-height: 1.9;    
     font-size: 1.05em;   
-    color: #333;         
+    opacity: 0.9;
     margin-bottom: 1.2em;
     letter-spacing: -0.02em;
   }

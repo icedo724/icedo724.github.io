@@ -13,7 +13,6 @@ permalink: /projects/
     padding-bottom: 8px;
     margin-top: 2.5em;
     margin-bottom: 1em;
-    color: #222;
   }
 </style>
 
