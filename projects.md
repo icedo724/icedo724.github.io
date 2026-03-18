@@ -50,12 +50,12 @@ permalink: /projects/
 * 텍스트 라벨링 및 자연어 처리(NLP) 기반의 감성 분석(Sentiment Analysis) 모델 학습 진행.
 * 🔗 [GitHub](https://github.com/icedo724/loabal)
 
-## 월드오브워크래프트(WoW) 경제 시계열 분석
+## 월드오브워크래프트 경제 시계열 분석
 * 사전 도메인 지식이 없는 새로운 환경의 데이터를 수집 및 분석.
 * 기존 로스트아크 분석 프레임워크를 적용하여, 데이터 자체의 패턴과 흐름만으로 유의미한 경제적 인사이트를 도출.
 * 🔗 [GitHub](https://github.com/icedo724/WoW-Auction) | 📊 [대시보드](https://wowauction.streamlit.app/)
 
-## 리그오브레전드 패치 예측 모델 (Loracle)
+## Loracle: 리그오브레전드 패치 예측 모델 
 * 마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.
 * 포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.
 * 🔗 [GitHub](https://github.com/icedo724/Loracle)

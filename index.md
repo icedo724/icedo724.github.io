@@ -2,13 +2,33 @@
 layout: home
 title: Home
 ---
+{% if site.photo %}
+<div class="text-center">
+  <img src="{{ site.photo }}" alt="{{ site.author.name }}" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
+</div>
+{% endif %}
+
 <style>
-  .home-content, .post-content {
-    max-width: 800px !important; 
+  .home-content, .post-content, .main-content {
+    max-width: 950px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  p {
-    word-break: keep-all;
-    line-height: 1.8;
+
+  p, li {
+    word-break: keep-all; 
+    line-height: 1.9;    
+    font-size: 1.05em;  
+    color: #333;       
+    margin-bottom: 1.2em; 
+  }
+
+  h1, h2, h3 {
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
   }
 </style>
 
@@ -26,8 +46,8 @@ title: Home
 * **데이터베이스 관리**: 관계형 데이터베이스에서 SQL을 통해 필요한 정보를 추출하고 목적에 맞게 정제할 수 있습니다.
 * **시각화 및 대시보드**: Tableau와 Power BI를 활용하여 분석 결과를 직관적으로 파악할 수 있는 대시보드 구축이 가능합니다.
 
-## 데이터 이면의 흐름을 읽는 도메인 분석
+## 데이터 이면의 흐름을 읽는 분석
 
 * **경험 기반의 가설 수립**: 유저로서의 깊은 경험을 분석적 사고와 결합하여, 단순 수치 나열이 아닌 '유저가 체감하는 변화'에 초점을 맞춘 실효성 있는 가설을 수립합니다.
 
-* **다각도 상관관계 분석**: 인게임 로그 데이터와 게임 외부의 시장 흐름, 유저 감성 간의 상관관계를 분석합니다. 예측 불가능해 보이는 외부 요인들을 데이터로 치환하여 의사결정의 논리적 근거를 마련합니다.
+* **다각도 분석**: 인게임 로그 데이터와 게임 외부의 시장 흐름, 플레이 감성을 고려해 분석합니다. 예측 불가능해 보이는 외부 요인들을 데이터로 치환하여 의사결정의 논리적 근거를 마련합니다.
