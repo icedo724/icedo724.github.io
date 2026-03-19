@@ -14,20 +14,29 @@ permalink: /projects/
     margin-top: 2.5em;
     margin-bottom: 1em;
   }
+/* 🖨️ 인쇄 및 PDF 변환 전용 스타일 */
   @media print {
+    /* 🌟 브라우저 자동 머리글/바닥글(날짜, 주소 등) 강제 제거 */
+    @page {
+      margin: 0; 
+    }
+    body {
+      padding: 1.5cm; /* 마진을 0으로 없애서 글씨가 잘리는 것을 방지하기 위해 안쪽 여백을 줍니다 */
+    }
+
     /* 1. 배경은 하얗게, 글씨는 까맣게 고정 */
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
       color: #000 !important;
     }
 
-    /* 2. 링크 처리: 텍스트 옆에 주소 나오는 기능 삭제 (클릭은 여전히 가능함) */
+    /* 2. 링크 클릭 강제 활성화 */
     a {
       text-decoration: underline !important;
-      color: #000 !important;
+      color: #0044cc !important;
+      pointer-events: auto !important; 
+      cursor: pointer !important;
     }
-    
-    /* 기존에 있던 a[href]::after 코드는 레이아웃을 망치므로 완전히 삭제했습니다. */
 
     /* 3. 페이지가 넘어갈 때 글이 반토막 나지 않게 보호 */
     h2, h3 {
