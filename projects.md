@@ -14,9 +14,7 @@ permalink: /projects/
     margin-top: 2.5em;
     margin-bottom: 1em;
   }
-</style>
-
-  @media print {
+    @media print {
     /* 1. 배경은 하얗게, 글씨는 까맣게 고정 (다크모드 인쇄 방지) */
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -55,6 +53,7 @@ permalink: /projects/
     }
   }
 
+</style>
 # 주요 프로젝트
 
 ## 실무 프로젝트
@@ -77,7 +76,7 @@ permalink: /projects/
 * 분석 결과를 누구나 쉽게 확인할 수 있도록 Streamlit 기반 인터랙티브 대시보드 배포.
 * 🔗 [GitHub](https://github.com/icedo724/LoaQuant) | 📝 [리포트](https://www.notion.so/miniminimin/318fbcdaed2880cd8de8dd88406d3564?source=copy_link) | 📊 [대시보드](https://loaquant.streamlit.app/)
 
-### 메이플스토리 고레벨 유저 경험치 영향 요인 분석
+### 메이플스토리 고레벨 유저 경험치 변동 분석
 * 신규 고레벨 지역 업데이트가 유저들의 획득 경험치 변화에 미치는 영향을 데이터로 추적.
 * '썬데이 메이플'이 유저 성장 속도에 미치는 영향을 정량적인 수치로 검증.
 * 🔗 [GitHub](https://github.com/icedo724/maple)
