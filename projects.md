@@ -16,6 +16,45 @@ permalink: /projects/
   }
 </style>
 
+  @media print {
+    /* 1. 배경은 하얗게, 글씨는 까맣게 고정 (다크모드 인쇄 방지) */
+    body, h1, h2, h3, h4, p, li, span {
+      background-color: #fff !important;
+      color: #000 !important;
+    }
+
+    /* 2. 링크 처리: 텍스트 옆에 실제 URL 주소를 텍스트로 노출 */
+    a {
+      text-decoration: underline !important;
+      color: #000 !important;
+    }
+    a[href]::after {
+      content: " (" attr(href) ")";
+      font-size: 0.85em;
+      color: #555 !important;
+      word-break: break-all;
+    }
+
+    /* (선택) 이메일이나 전화번호 링크는 URL 텍스트를 중복해서 표시하지 않음 */
+    a[href^="mailto:"]::after, a[href^="tel:"]::after {
+      content: "";
+    }
+
+    /* 3. 페이지가 넘어갈 때 글이 반토막 나지 않게 보호 */
+    h2, h3 {
+      page-break-after: avoid; /* 제목 바로 다음에서 잘리지 않음 */
+    }
+    li, p {
+      page-break-inside: avoid; /* 내용물이 페이지 중간에 찢어지지 않음 */
+    }
+
+    /* 4. 불필요한 테두리 및 그림자 제거로 깔끔한 문서화 */
+    * {
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  }
+
 # 주요 프로젝트
 
 ## 실무 프로젝트
@@ -53,7 +92,7 @@ permalink: /projects/
 * 기존 로스트아크 분석 프레임워크를 적용하여, 데이터 자체의 패턴과 흐름만으로 유의미한 경제적 인사이트를 도출.
 * 🔗 [GitHub](https://github.com/icedo724/WoW-Auction) | 📊 [대시보드](https://wowauction.streamlit.app/)
 
-### Loracle: 리그오브레전드 패치 예측 모델 
+### 리그오브레전드 패치 예측 모델 
 * 마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.
 * 포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.
 * 🔗 [GitHub](https://github.com/icedo724/Loracle)
