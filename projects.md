@@ -55,10 +55,10 @@ permalink: /projects/
 
 ## 개인 프로젝트
 
-### 리그오브레전드 상위 플레이어 메타 분석
+### 리그오브레전드 상위 플레이어 메타 대시보드 구축
 * Riot Games API를 활용하여 상위 티어 플레이어들의 플레이 데이터를 수집.
 * 챔피언 픽률, 아이템 트리, 승률 간의 상관관계를 통계적으로 분석하여 게임 내 최적의 메타 인사이트 도출.
-* 🔗 [GitHub](https://github.com/icedo724/LoL-DashBoard) | 📝 [리포트](https://www.notion.so/miniminimin/2f4fbcdaed2880a18cf7ce6e43d71cfb?source=copy_link)
+* 🔗 [GitHub](https://github.com/icedo724/LoL-DashBoard) | 📊 [대시보드](https://lolhighplayer.streamlit.app/)
 
 ### 로스트아크 경제 시계열 분석
 * 로스트아크 거래소 데이터를 수집하여 게임 내 경제 흐름에 대한 시계열 분석 수행.
@@ -66,20 +66,19 @@ permalink: /projects/
 * 분석 결과를 누구나 쉽게 확인할 수 있도록 Streamlit 기반 인터랙티브 대시보드 배포.
 * 🔗 [GitHub](https://github.com/icedo724/LoaQuant) | 📝 [리포트](https://www.notion.so/miniminimin/318fbcdaed2880cd8de8dd88406d3564?source=copy_link) | 📊 [대시보드](https://loaquant.streamlit.app/)
 
-### 메이플스토리 고레벨 유저 경험치 변동 분석
-* 신규 고레벨 지역 업데이트가 유저들의 획득 경험치 변화에 미치는 영향을 데이터로 추적.
-* '썬데이 메이플'이 유저 성장 속도에 미치는 영향을 정량적인 수치로 검증.
-* 🔗 [GitHub](https://github.com/icedo724/maple)
+### 메이플스토리 고레벨 유저 경험치 분석
+* 고레벨 유저의 경험치 변동에 영향을 미치는 요인 검정
+* 🔗 [GitHub](https://github.com/icedo724/Maplestory_Exp_Analysis) | 📝 [리포트](https://www.notion.so/miniminimin/32afbcdaed288075a929eb7f533361b0?source=copy_link) | 📊 [대시보드](https://maple-exp-analysis.streamlit.app/)
 
 ### 로스트아크 직업 밸런스 기반 유저 감성 분석
 * '로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.
 * 텍스트 라벨링 및 자연어 처리 기반의 감성 분석 모델 학습 진행.
 * 🔗 [GitHub](https://github.com/icedo724/loabal)
 
-### 월드오브워크래프트 경제 시계열 분석
+### 월드 오브 워크래프트 한밤 경제 분석
 * 사전 도메인 지식이 없는 새로운 환경의 데이터를 수집 및 분석.
 * 기존 로스트아크 분석 프레임워크를 적용하여, 데이터 자체의 패턴과 흐름만으로 유의미한 경제적 인사이트를 도출.
-* 🔗 [GitHub](https://github.com/icedo724/WoW-Auction) | 📊 [대시보드](https://wowauction.streamlit.app/)
+* 🔗 [GitHub](https://github.com/icedo724/WoW-Auction) | 📝 [리포트](https://www.notion.so/miniminimin/32bfbcdaed288053bcfef33ce58e2d14?source=copy_link) | 📊 [대시보드](https://wowauction.streamlit.app/)
 
 ### 리그오브레전드 패치 예측 모델 
 * 마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.
