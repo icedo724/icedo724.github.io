@@ -22,6 +22,7 @@ title: CV
 * **SQLD** | 한국데이터산업진흥원 (2026.03)
 * **빅데이터분석기사** | 한국데이터산업진흥원 (2025.12)
 * **정보처리산업기사** | 한국산업인력공단 (2021.08)
+* **네트워크관리사 2급** | 한국정보통신자격협회 (2020.01)
 
 <div style="text-align: center; margin-bottom: 40px; margin-top: 20px;">
   <p style="margin-top: 15px; font-size: 0.7em; display: flex; justify-content: center; align-items: center; gap: 7px; flex-wrap: wrap; opacity: 0.8;">
