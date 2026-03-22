@@ -89,7 +89,7 @@ permalink: /projects/
 
 ### 제6회 교육 공공데이터 분석·활용대회
 * 서울특별시 특수유아 분포와 특수교사 배치 현황 간의 불균등을 검증하기 위해 다중 회귀 모델링 수행 및 정책적 개선안 도출.
-* 🔗 [GitHub](https://github.com/icedo724/Public-Education-Data) | 📝 [리포트](https://www.loud.kr/gelato/portfolio/3681948)
+* 🔗 [GitHub](https://github.com/icedo724/Public-Education-Data) | 📝 [리포트](https://docs.google.com/document/d/17iBYTxN1GDq42raatcBSh5Tb9tC_8mGz_eF8uHsLi4Y/edit?usp=sharing)
 
 ### 제6회 서울교육 데이터 분석·활용 공모전
 * 특수교육 대상자와 교육 가능 기관의 공간적 분포를 분석하여, 데이터 기반의 최적의 신규 특수학교 설립 방안 제안.
