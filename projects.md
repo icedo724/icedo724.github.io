@@ -15,29 +15,23 @@ permalink: /projects/
     margin-bottom: 1em;
   }
   @media print {
-    /* 1. 배경은 하얗게, 글씨는 까맣게 고정 */
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
       color: #000 !important;
     }
 
-    /* 2. 링크 처리: 텍스트 옆에 주소 나오는 기능 삭제 (클릭은 여전히 가능함) */
     a {
       text-decoration: underline !important;
       color: #000 !important;
     }
-    
-    /* 기존에 있던 a[href]::after 코드는 레이아웃을 망치므로 완전히 삭제했습니다. */
 
-    /* 3. 페이지가 넘어갈 때 글이 반토막 나지 않게 보호 */
     h2, h3 {
-      page-break-after: avoid; 
+      page-break-after: avoid;
     }
     li, p {
-      page-break-inside: avoid; 
+      page-break-inside: avoid;
     }
 
-    /* 4. 불필요한 테두리 및 그림자 제거 */
     * {
       box-shadow: none !important;
       text-shadow: none !important;
