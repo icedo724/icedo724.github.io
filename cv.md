@@ -7,6 +7,34 @@ title: CV
   body, h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif !important;
   }
+  .skill-group {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 0.5em;
+    flex-wrap: wrap;
+  }
+  .skill-label {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--color-text);
+    opacity: 0.6;
+    min-width: 5em;
+    flex-shrink: 0;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .skill-tag {
+    background-color: var(--color-border);
+    color: var(--color-text);
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.78em;
+    font-weight: 500;
+  }
 </style>
 
 # 학력 및 자격
@@ -24,15 +52,26 @@ title: CV
 * **정보처리산업기사** | 한국산업인력공단 (2021.08)
 * **네트워크관리사 2급** | 한국정보통신자격협회 (2020.01)
 
+## 기술
+
+<div class="skill-group">
+  <span class="skill-label">언어</span>
+  <div class="skill-tags">
+    <span class="skill-tag">Python</span>
+    <span class="skill-tag">R</span>
+    <span class="skill-tag">SQL</span>
+  </div>
+</div>
+<div class="skill-group">
+  <span class="skill-label">도구</span>
+  <div class="skill-tags">
+    <span class="skill-tag">Power BI</span>
+    <span class="skill-tag">Tableau</span>
+  </div>
+</div>
+
 <div style="text-align: center; margin-bottom: 40px; margin-top: 20px;">
   <p style="margin-top: 15px; font-size: 0.7em; display: flex; justify-content: center; align-items: center; gap: 7px; flex-wrap: wrap; opacity: 0.8;">
-    
-    <span style="display: flex; align-items: center; gap: 4px;">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-      {{ site.birth }}
-    </span>
-
-    <span style="opacity: 0.3; margin: 0 2px;">|</span>
 
     <span style="display: flex; align-items: center; gap: 4px;">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
