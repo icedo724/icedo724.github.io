@@ -109,8 +109,6 @@ permalink: /projects/
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">SciPy</span>
   <span class="tag">카이제곱 검정</span>
 </div>
 <div class="project-links">
@@ -130,8 +128,6 @@ permalink: /projects/
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">Streamlit</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/LoL-DashBoard"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -148,10 +144,8 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">Statsmodels</span>
+  <span class="tag">LostArk API</span>
   <span class="tag">시계열 분석</span>
-  <span class="tag">Streamlit</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/LoaQuant"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -167,9 +161,8 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">Pandas</span>
+  <span class="tag">Nexon API</span>
   <span class="tag">통계 검정</span>
-  <span class="tag">Streamlit</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/Maplestory_Exp_Analysis"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -182,13 +175,13 @@ permalink: /projects/
 <h3>로스트아크 직업별 밸런스 만족도 모델</h3>
 <ul>
   <li>'로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.</li>
-  <li>텍스트 라벨링 및 자연어 처리 기반의 감성 분석 모델 학습 진행.</li>
+  <li>텍스트 라벨링 및 자연어 처리 기반의 감정 분석 모델 학습 진행.</li>
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">BeautifulSoup</span>
+  <span class="tag">Web Crawling</span>
   <span class="tag">NLP</span>
-  <span class="tag">감성 분석</span>
+  <span class="tag">감정 분석</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/loabal"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -203,10 +196,8 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">Statsmodels</span>
+  <span class="tag">World of Warcraft API</span>
   <span class="tag">시계열 분석</span>
-  <span class="tag">Streamlit</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/WoW-Auction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -224,8 +215,7 @@ permalink: /projects/
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">Scikit-learn</span>
+  <span class="tag">회귀 모델</span>
   <span class="tag">분류 모델</span>
 </div>
 <div class="project-links">
@@ -243,9 +233,7 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">Pandas</span>
-  <span class="tag">Statsmodels</span>
-  <span class="tag">다중 회귀</span>
+  <span class="tag">SQL</span>
   <span class="tag">공공데이터</span>
 </div>
 <div class="project-links">
@@ -261,8 +249,7 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">GeoPandas</span>
-  <span class="tag">공간 분석</span>
+  <span class="tag">SQL</span>
   <span class="tag">공공데이터</span>
 </div>
 <div class="project-links">
@@ -278,7 +265,6 @@ permalink: /projects/
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">Scikit-learn</span>
   <span class="tag">머신러닝</span>
 </div>
 <div class="project-links">
