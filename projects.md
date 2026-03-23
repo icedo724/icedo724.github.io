@@ -74,10 +74,10 @@ permalink: /projects/
 * 기존 로스트아크 분석 프레임워크를 적용하여, 데이터 자체의 패턴과 흐름만으로 유의미한 경제적 인사이트를 도출.
 * 🔗 [GitHub](https://github.com/icedo724/WoW-Auction) | 📝 [리포트](https://www.notion.so/miniminimin/32bfbcdaed288053bcfef33ce58e2d14?source=copy_link) | 📊 [대시보드](https://wowauction.streamlit.app/)
 
-### 리그오브레전드 패치 예측 모델 
+### Loracle - 리그오브레전드 패치 예측 모델 
 * 마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.
 * 포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.
-* 🔗 [GitHub](https://github.com/icedo724/Loracle)
+* 🔗 [GitHub](https://github.com/icedo724/Loracle) | 📝 [리포트](https://www.notion.so/miniminimin/Loracle-32afbcdaed28807faab9f5c891532ffd?source=copy_link)
 
 ## 공모전 및 기타 저장소
 
