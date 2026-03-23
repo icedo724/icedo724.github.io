@@ -14,6 +14,9 @@ permalink: /projects/
     margin-top: 2.5em;
     margin-bottom: 1em;
   }
+  h3 {
+    text-transform: none;
+  }
   @media print {
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -64,7 +67,7 @@ permalink: /projects/
 * 고레벨 유저의 경험치 변동에 영향을 미치는 요인 검정
 * 🔗 [GitHub](https://github.com/icedo724/Maplestory_Exp_Analysis) | 📝 [리포트](https://www.notion.so/miniminimin/32afbcdaed288075a929eb7f533361b0?source=copy_link) | 📊 [대시보드](https://maple-exp-analysis.streamlit.app/)
 
-### 로스트아크 직업 밸런스 기반 유저 감성 분석
+### 로스크아크 직업별 밸런스 만족도 모델
 * '로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.
 * 텍스트 라벨링 및 자연어 처리 기반의 감성 분석 모델 학습 진행.
 * 🔗 [GitHub](https://github.com/icedo724/loabal)
