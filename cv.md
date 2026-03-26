@@ -96,6 +96,8 @@ title: CV
     <span class="skill-tag">Tableau</span>
   </div>
 </div>
+
+## 게임
 <div class="game-platform">
   <div class="game-platform-label">PC</div>
   <div class="game-entry">
