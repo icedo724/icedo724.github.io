@@ -35,6 +35,33 @@ title: CV
     font-size: 0.78em;
     font-weight: 500;
   }
+  .game-platform {
+    margin-bottom: 0.9em;
+  }
+  .game-platform-label {
+    font-size: 0.78em;
+    font-weight: 700;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35em;
+  }
+  .game-entry {
+    display: grid;
+    grid-template-columns: 11em 8em 1fr;
+    font-size: 0.85em;
+    padding: 1px 0;
+  }
+  .game-name {
+    font-weight: 600;
+  }
+  .game-genre {
+    opacity: 0.6;
+  }
+  .game-period {
+    opacity: 0.5;
+    font-size: 0.92em;
+  }
 </style>
 
 # 학력 및 자격
@@ -67,6 +94,62 @@ title: CV
   <div class="skill-tags">
     <span class="skill-tag">Power BI</span>
     <span class="skill-tag">Tableau</span>
+  </div>
+</div>
+<div class="game-platform">
+  <div class="game-platform-label">PC</div>
+  <div class="game-entry">
+    <span class="game-name">메이플스토리</span>
+    <span class="game-genre">MMORPG</span>
+    <span class="game-period">10년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">로스트아크</span>
+    <span class="game-genre">MMORPG</span>
+    <span class="game-period">1년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">리그오브레전드</span>
+    <span class="game-genre">MOBA</span>
+    <span class="game-period">10년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">전략적 팀 전투</span>
+    <span class="game-genre">오토배틀러</span>
+    <span class="game-period">5년 이상</span>
+  </div>
+</div>
+
+<div class="game-platform">
+  <div class="game-platform-label">Mobile</div>
+  <div class="game-entry">
+    <span class="game-name">마비노기 모바일</span>
+    <span class="game-genre">MMORPG</span>
+    <span class="game-period">1년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">AFK 새로운 여정</span>
+    <span class="game-genre">MMORPG</span>
+    <span class="game-period">1년 이상</span>
+  </div>
+</div>
+
+<div class="game-platform">
+  <div class="game-platform-label">Console</div>
+  <div class="game-entry">
+    <span class="game-name">포켓몬스터 시리즈</span>
+    <span class="game-genre">RPG</span>
+    <span class="game-period">10년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">몬스터헌터 시리즈</span>
+    <span class="game-genre">RPG</span>
+    <span class="game-period">2년 이상</span>
+  </div>
+  <div class="game-entry">
+    <span class="game-name">슈퍼마리오 시리즈</span>
+    <span class="game-genre">플랫폼 게임</span>
+    <span class="game-period">10년 이상</span>
   </div>
 </div>
 
