@@ -189,7 +189,7 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>로스트아크 직업별 밸런스 만족도 모델 <span class="badge-wip">진행 중</span></h3>
+<h3>로스트아크 직업별 밸런스 만족도 모델 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v2</span></h3>
 <ul>
   <li>'로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.</li>
   <li>텍스트 라벨링 및 자연어 처리 기반의 감정 분석 모델 학습 진행.</li>
@@ -202,6 +202,7 @@ permalink: /projects/
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/loabal"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://www.notion.so/miniminimin/LOABAL-327fbcdaed28802fa544c1a4d081d356?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
 </div>
 </div>
 
@@ -224,7 +225,7 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span></h3>
+<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">업데이트 진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
 <ul>
   <li>마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.</li>
   <li>포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.</li>
