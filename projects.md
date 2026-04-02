@@ -189,7 +189,7 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>로스트아크 직업별 밸런스 만족도 모델 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v2</span></h3>
+<h3>LOABAL - 로스트아크 커뮤니티 감정분석 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v2</span></h3>
 <ul>
   <li>'로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.</li>
   <li>텍스트 라벨링 및 자연어 처리 기반의 감정 분석 모델 학습 진행.</li>
