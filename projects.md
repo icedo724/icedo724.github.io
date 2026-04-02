@@ -225,10 +225,10 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">업데이트 진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
+<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
 <ul>
   <li>마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.</li>
-  <li>포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정(버프/너프) 방향을 예측하는 모델 구축.</li>
+  <li>포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정 방향을 예측하는 모델 구축.</li>
 </ul>
 <div class="project-tags">
   <span class="tag">Python</span>
