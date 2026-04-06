@@ -238,9 +238,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
-<p class="project-problem"><strong>문제:</strong> 패치마다 급변하는 메타 — 상위 티어 기준 실시간 픽률·승률 기반 OP 챔피언 판단 도구 부재</p>
-<p class="project-result"><strong>결과:</strong> Riot API로 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정</p>
-<p class="project-impact"><strong>효과:</strong> 상위 티어 데이터 기반으로 메타 챔피언을 사분면으로 분류해 직관 없이도 픽 판단이 가능한 대시보드 배포</p>
+<p class="project-problem"><strong>배경:</strong> Riot API로 실제 데이터를 직접 수집하고, 메타 통계 사이트와 유사한 분석 대시보드를 처음부터 구현해보는 것이 목표</p>
+<p class="project-result"><strong>결과:</strong> 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정 + 대시보드 배포</p>
+<p class="project-impact"><strong>효과:</strong> API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
@@ -256,7 +256,7 @@ permalink: /projects/
 <h3>로스트아크 경제 시계열 분석</h3>
 <p class="project-problem"><strong>문제:</strong> 재화 가격이 왜 오르내리는지 원인 불명확 — 패키지·방송·업데이트 등 이벤트가 실제로 얼마나 충격을 주는지 정량화 수단 없음</p>
 <p class="project-result"><strong>결과:</strong> 공식 API로 47일치 12개 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
-<p class="project-impact"><strong>효과:</strong> 수요일 효과·이벤트 레이어를 탑재한 실시간 대시보드로 "구매 적기" 판단 근거 제공 → 게임사 BM 정책 시뮬레이터로 응용 가능성 제시</p>
+<p class="project-impact"><strong>효과:</strong> 수요일 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">LostArk API</span>
@@ -289,14 +289,14 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>LOABAL - 로스트아크 커뮤니티 감정분석 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v2</span></h3>
+<h3>LOABAL - 로스트아크 커뮤니티 감정분석 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v4</span></h3>
 <p class="project-problem"><strong>문제:</strong> 패치 전후 유저 여론 변화를 정량화할 수단 없음 — 게임사 입장에서 수천 개 게시글을 읽지 않고 여론 방향을 파악해야 하는 상황</p>
-<p class="project-result"><strong>결과:</strong> (진행 중) 로스트아크 인벤 직업 게시판 크롤링 → 텍스트 라벨링 + KoBERT 기반 감정 분류 모델 학습 중 (v2)</p>
+<p class="project-result"><strong>결과:</strong> (진행 중) 로스트아크 인벤 직업 게시판 크롤링 → 텍스트 라벨링 + KoBERT 기반 감정 분류 모델 학습 중 (v4, Macro F1 0.61)</p>
 <p class="project-impact"><strong>목표:</strong> 패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시</p>
 <div class="project-progress">
-  <span class="progress-label">진행률 약 70%</span>
-  <div class="progress-bar"><div class="progress-fill" style="width: 70%"></div></div>
-  <span class="progress-note">현재: 라벨링 완료, 모델 v2 학습 중</span>
+  <span class="progress-label">진행률 약 85%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+  <span class="progress-note">현재: 라벨링 83.6% (2,448/2,929건), 모델 v4 학습 완료 · 전체 데이터 재학습 예정</span>
 </div>
 <div class="project-tags">
   <span class="tag">Python</span>
@@ -331,12 +331,12 @@ permalink: /projects/
 <div class="project-card">
 <h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
 <p class="project-problem"><strong>문제:</strong> 패치마다 챔피언 너프·버프 방향을 예측하는 정량 기준 없음 — 유저와 분석가 모두 패치 노트 공개 전까지 추측에 의존</p>
-<p class="project-result"><strong>결과:</strong> (진행 중) 마스터 이상 매치 로그 대량 수집 → 포지션·승률·픽률·밴률 기반 분류·회귀 모델 (v5, 피처 엔지니어링 완료, 모델 튜닝 중)</p>
-<p class="project-impact"><strong>목표:</strong> 패치 노트 공개 전 밸런스 조정 방향 예측 → 선제적 메타 대응 및 픽 준비 가능</p>
+<p class="project-result"><strong>결과:</strong> (진행 중) 마스터 이상 매치 로그 수집 (패치 16.1~16.6, 약 3개월치) → 포지션·승률·픽률·밴률 기반 분류·회귀 모델 v5 학습 완료</p>
+<p class="project-impact"><strong>목표:</strong> 1년치 데이터(약 24패치) 수집 완료 후 패치 방향 예측 정확도 검증 및 배포</p>
 <div class="project-progress">
-  <span class="progress-label">진행률 약 60%</span>
-  <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
-  <span class="progress-note">현재: 피처 엔지니어링 완료, 모델 튜닝 중</span>
+  <span class="progress-label">진행률 약 25%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 25%"></div></div>
+  <span class="progress-note">현재: 6패치분 수집 완료 · 목표 24패치 (1년치)</span>
 </div>
 <div class="project-tags">
   <span class="tag">Python</span>

@@ -81,7 +81,7 @@ title: CV
 
 ## 기술
 
-<p style="font-size:0.8em; opacity:0.6; margin-bottom:1em;">각 기술이 어떤 프로젝트에서 어떻게 쓰였는지는 링크에서 확인하실 수 있습니다.</p>
+<p style="font-size:0.8em; opacity:0.6; margin-bottom:1em;">링크가 있는 기술은 실제 프로젝트에서 사용한 기술입니다.</p>
 
 <div class="skill-group">
   <span class="skill-label">언어</span>
@@ -94,7 +94,7 @@ title: CV
 <div class="skill-group">
   <span class="skill-label">도구</span>
   <div class="skill-tags">
-    <a class="skill-tag" href="/projects/#project-medi" style="text-decoration:none; color:inherit;">Power BI</a>
+    <span class="skill-tag">Power BI</span>
     <span class="skill-tag">Tableau</span>
   </div>
 </div>
