@@ -85,6 +85,60 @@ permalink: /projects/
   .project-link svg rect {
     stroke: currentColor;
   }
+  .project-problem {
+    border-left: 3px solid #888;
+    padding-left: 8px;
+    margin: 4px 0 8px 0;
+    font-size: 0.88em;
+    line-height: 1.5;
+  }
+  .project-result {
+    border-left: 3px solid #4a9eff;
+    padding-left: 8px;
+    margin: 4px 0 8px 0;
+    font-size: 0.88em;
+    line-height: 1.5;
+  }
+  .project-impact {
+    border-left: 3px solid #2ecc71;
+    padding-left: 8px;
+    margin: 4px 0 12px 0;
+    font-size: 0.88em;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .badge-scale {
+    background-color: rgba(74, 158, 255, 0.12);
+    border: 1px solid rgba(74, 158, 255, 0.3);
+    color: #4a9eff;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 0.72em;
+    font-weight: 500;
+  }
+  .project-progress {
+    margin: 6px 0 10px 0;
+  }
+  .progress-bar {
+    height: 4px;
+    background: var(--color-border);
+    border-radius: 2px;
+    margin: 4px 0;
+  }
+  .progress-fill {
+    height: 100%;
+    background: #4a9eff;
+    border-radius: 2px;
+  }
+  .progress-label {
+    font-size: 0.75em;
+    opacity: 0.65;
+    margin-right: 8px;
+  }
+  .progress-note {
+    font-size: 0.75em;
+    opacity: 0.65;
+  }
   @media print {
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -117,15 +171,14 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>거래처 데이터 보강 및 등급 재조정 방안 제시</h3>
-<ul>
-  <li>건강보험 요양기관 공공데이터를 요양기호 기준으로 연동, API 호출 구조 기반 스키마 분리 설계안 제시.</li>
-  <li>2년간 거래 이력에 ABC·RFM 분석을 적용해 기존 등급 체계를 정량 지표 기반으로 재분류.</li>
-  <li>카이제곱 검정으로 등급 간 요인 유의성 검증, 방안의 통계적 타당성 확보</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 영업 담당자 직관에만 의존하던 거래처 등급 체계 — 정량 기준 없어 이의제기·갱신 불가</p>
+<p class="project-result"><strong>결과:</strong> 건강보험 공공데이터 3종 + 내부 2년 거래 이력 연계 → RFM·ABC 분석으로 기존 2등급 → 6등급 세분화, 카이제곱 검정 p &lt; 0.05 통계적 유의성 확보</p>
+<p class="project-impact"><strong>임팩트:</strong> 정량 기반 등급 기준 수립 및 자동 최신화 파이프라인 구축, 영업 우선순위 재편 근거 마련</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
   <span class="tag">카이제곱 검정</span>
+  <span class="badge-scale">공공데이터 3종 연계 · 2년 거래 이력 · p &lt; 0.05</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/medi"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -136,15 +189,15 @@ permalink: /projects/
 ## 개인 프로젝트
 
 <div class="project-card">
-<h3>JobSonar - 데이터직군 채용 모음</h3>
-<ul>
-  <li>원티드 등 채용 플랫폼 공고를 주기적으로 수집하여 직군별·기술 스택별 채용 트렌드를 분석.</li>
-  <li>기술 스택 공동 출현 네트워크 그래프, 연봉 분포, 채용공고 수 시계열 등 인터랙티브 대시보드로 제공.</li>
-</ul>
+<h3>JobSonar - 데이터직군 채용 시장 트렌드 분석기</h3>
+<p class="project-problem"><strong>문제:</strong> "어떤 기술을 배울지" 데이터 기반 판단 없이 채용 준비 중 — 공고를 일일이 찾아보는 것 이상의 방법이 없었음</p>
+<p class="project-result"><strong>결과:</strong> 채용 플랫폼 크롤링으로 공고 자동 수집 → 직군별 기술 스택 트렌드 시계열, 공동 출현 네트워크 그래프, 연봉 분포 인터랙티브 대시보드로 제공</p>
+<p class="project-impact"><strong>임팩트:</strong> 데이터 직군 취준생의 스킬 우선순위 결정을 데이터로 — 분석 결과로 나 자신의 학습 방향을 결정</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
   <span class="tag">Web Crawling</span>
+  <span class="tag">Network Graph</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/JobSonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -154,10 +207,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
-<ul>
-  <li>Riot Games API를 활용하여 상위 티어 플레이어들의 플레이 데이터를 수집.</li>
-  <li>챔피언 픽률, 아이템 트리, 승률 간의 상관관계를 통계적으로 분석하여 게임 내 최적의 메타 인사이트 도출.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 패치마다 급변하는 메타 — 상위 티어 기준 실시간 픽률·승률 기반 OP 챔피언 판단 도구 부재</p>
+<p class="project-result"><strong>결과:</strong> Riot API로 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정</p>
+<p class="project-impact"><strong>임팩트:</strong> "이번 패치 뭐 타야 해?" 질문에 데이터로 답하는 메타 판단 대시보드 배포</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
@@ -171,15 +223,14 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>로스트아크 경제 시계열 분석</h3>
-<ul>
-  <li>로스트아크 거래소 데이터를 수집하여 게임 내 경제 흐름에 대한 시계열 분석 수행.</li>
-  <li>게임 내 정기적/비정기적 이벤트 요인이 경제 타격에 미치는 영향을 파악하고, 시계열 예측 모델을 적합시켜 요인 분석.</li>
-  <li>분석 결과를 누구나 쉽게 확인할 수 있도록 Streamlit 기반 인터랙티브 대시보드 배포.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 재화 가격이 왜 오르내리는지 원인 불명확 — 패키지·방송·업데이트 등 이벤트가 실제로 얼마나 충격을 주는지 정량화 수단 없음</p>
+<p class="project-result"><strong>결과:</strong> 공식 API로 47일치 12개 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
+<p class="project-impact"><strong>임팩트:</strong> 수요일 효과·이벤트 레이어를 탑재한 실시간 대시보드로 "구매 적기" 판단 근거 제공 → 게임사 BM 정책 시뮬레이터로 응용 가능성 제시</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">LostArk API</span>
   <span class="tag">시계열 분석</span>
+  <span class="badge-scale">47일치 · 12개 재화 · MAPE 1.29~5.19%</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/LoaQuant"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -190,9 +241,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>메이플스토리 고레벨 유저 경험치 분석</h3>
-<ul>
-  <li>고레벨 유저의 경험치 변동에 영향을 미치는 요인 검정.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 고레벨 구간에서 경험치 효율에 실제로 영향을 주는 요인이 무엇인지 정량적으로 밝혀진 바 없음 — 커뮤니티 경험담에만 의존</p>
+<p class="project-result"><strong>결과:</strong> Nexon Open API로 고레벨 유저 경험치 변동 데이터 수집 → 다중 요인 통계 검정으로 경험치 효율 유의 요인 식별 및 순위화</p>
+<p class="project-impact"><strong>임팩트:</strong> "어떤 활동이 실제로 효율적인가"를 데이터로 규명 — 커뮤니티 정설을 통계적으로 검증</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Nexon API</span>
@@ -207,10 +258,14 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>LOABAL - 로스트아크 커뮤니티 감정분석 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v2</span></h3>
-<ul>
-  <li>'로스트아크 인벤' 직업 게시판 텍스트 데이터를 크롤링하여 패치 전후의 유저 여론 파악.</li>
-  <li>텍스트 라벨링 및 자연어 처리 기반의 감정 분석 모델 학습 진행.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 패치 전후 유저 여론 변화를 정량화할 수단 없음 — 게임사 입장에서 수천 개 게시글을 읽지 않고 여론 방향을 파악해야 하는 상황</p>
+<p class="project-result"><strong>결과:</strong> (진행 중) 로스트아크 인벤 직업 게시판 크롤링 → 텍스트 라벨링 + KoBERT 기반 감정 분류 모델 학습 중 (v2)</p>
+<p class="project-impact"><strong>목표:</strong> 패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시</p>
+<div class="project-progress">
+  <span class="progress-label">진행률 약 70%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 70%"></div></div>
+  <span class="progress-note">현재: 라벨링 완료, 모델 v2 학습 중</span>
+</div>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Web Crawling</span>
@@ -225,10 +280,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>월드 오브 워크래프트 한밤 경제 분석</h3>
-<ul>
-  <li>사전 도메인 지식이 없는 새로운 환경의 데이터를 수집 및 분석.</li>
-  <li>기존 로스트아크 분석 프레임워크를 적용하여, 데이터 자체의 패턴과 흐름만으로 유의미한 경제적 인사이트를 도출.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 사전 도메인 지식이 전혀 없는 낯선 게임 — "분석 방법론이 도메인을 타는가"에 대한 자기 검증 필요</p>
+<p class="project-result"><strong>결과:</strong> WoW 공식 API로 경매장 데이터 수집 → 로스트아크 분석 프레임워크를 그대로 이식, 도메인 지식 없이 데이터 패턴만으로 유의미한 경제 흐름 도출</p>
+<p class="project-impact"><strong>임팩트:</strong> 방법론의 도메인 이식성 검증 — "게임을 몰라도 경제 데이터를 읽을 수 있다"는 것을 증명</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">World of Warcraft API</span>
@@ -243,10 +297,14 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
-<ul>
-  <li>마스터 티어 이상 유저들의 패치별 매치 로그를 API로 대량 수집 및 전처리.</li>
-  <li>포지션, 승률, 픽률, 밴률 등의 변수를 활용하여 다음 패치의 챔피언 밸런스 조정 방향을 예측하는 모델 구축.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 패치마다 챔피언 너프·버프 방향을 예측하는 정량 기준 없음 — 유저와 분석가 모두 패치 노트 공개 전까지 추측에 의존</p>
+<p class="project-result"><strong>결과:</strong> (진행 중) 마스터 이상 매치 로그 대량 수집 → 포지션·승률·픽률·밴률 기반 분류·회귀 모델 (v5, 피처 엔지니어링 완료, 모델 튜닝 중)</p>
+<p class="project-impact"><strong>목표:</strong> 패치 노트 공개 전 밸런스 조정 방향 예측 → 선제적 메타 대응 및 픽 준비 가능</p>
+<div class="project-progress">
+  <span class="progress-label">진행률 약 60%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 60%"></div></div>
+  <span class="progress-note">현재: 피처 엔지니어링 완료, 모델 튜닝 중</span>
+</div>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
@@ -263,9 +321,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>제6회 교육 공공데이터 분석·활용대회</h3>
-<ul>
-  <li>서울특별시 특수유아 분포와 특수교사 배치 현황 간의 불균등을 검증하기 위해 다중 회귀 모델링 수행 및 정책적 개선안 도출.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 서울시 특수유아 분포와 특수교사 배치 현황 간 불균등 의심 — 데이터 기반 검증 없이 정책 입안 중</p>
+<p class="project-result"><strong>결과:</strong> 공공데이터 다중 연계 + 다중 회귀 모델링으로 배치 불균등 통계적 검증, 지역별 우선 배치 필요 구간 식별</p>
+<p class="project-impact"><strong>임팩트:</strong> 데이터 기반 특수교사 배치 우선 지역 도출 및 정책적 개선안 제시</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -279,9 +337,9 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>제6회 서울교육 데이터 분석·활용 공모전</h3>
-<ul>
-  <li>특수교육 대상자와 교육 가능 기관의 공간적 분포를 분석하여, 데이터 기반의 최적의 신규 특수학교 설립 방안 제안.</li>
-</ul>
+<p class="project-problem"><strong>문제:</strong> 특수교육 대상자와 교육 기관의 공간적 불일치 — 어디에 신규 특수학교를 지어야 하는지 데이터 근거 부재</p>
+<p class="project-result"><strong>결과:</strong> 대상자 분포 + 기관 접근성 지수 공간 분석 → 수요 대비 공급 부족 지역 정량화, 최적 설립 후보지 도출</p>
+<p class="project-impact"><strong>임팩트:</strong> 데이터 기반 신규 특수학교 설립 우선 지역 제안 — 예산 투입 효율 최대화 방안</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
