@@ -81,18 +81,20 @@ title: CV
 
 ## 기술
 
+<p style="font-size:0.8em; opacity:0.6; margin-bottom:1em;">각 기술이 어떤 프로젝트에서 어떻게 쓰였는지는 링크에서 확인하실 수 있습니다.</p>
+
 <div class="skill-group">
   <span class="skill-label">언어</span>
   <div class="skill-tags">
-    <span class="skill-tag">Python</span>
+    <a class="skill-tag" href="/projects/#project-loaquant" style="text-decoration:none; color:inherit;">Python</a>
     <span class="skill-tag">R</span>
-    <span class="skill-tag">SQL</span>
+    <a class="skill-tag" href="/projects/#project-jobsonar" style="text-decoration:none; color:inherit;">SQL</a>
   </div>
 </div>
 <div class="skill-group">
   <span class="skill-label">도구</span>
   <div class="skill-tags">
-    <span class="skill-tag">Power BI</span>
+    <a class="skill-tag" href="/projects/#project-medi" style="text-decoration:none; color:inherit;">Power BI</a>
     <span class="skill-tag">Tableau</span>
   </div>
 </div>
