@@ -234,7 +234,7 @@ permalink: /projects/
 <h3>거래처 데이터 보강 및 등급 재조정 방안 제시</h3>
 <p class="project-problem"><strong>문제:</strong> 영업 담당자 직관에만 의존하던 거래처 등급 체계 — 정량 기준 없어 이의제기·갱신 불가</p>
 <p class="project-result"><strong>결과:</strong> 건강보험 공공데이터 3종 + 내부 2년 거래 이력 연계 → RFM·ABC 분석으로 기존 2등급 → 6등급 세분화, 카이제곱 검정 p &lt; 0.05 통계적 유의성 확보</p>
-<p class="project-impact"><strong>효과:</strong> 정량 기반 등급 기준 수립 및 자동 최신화 파이프라인 구축, 영업 우선순위 재편 근거 마련</p>
+<p class="project-impact">정량 기반 등급 기준 수립 및 자동 최신화 파이프라인 구축, 영업 우선순위 재편 근거 마련</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -253,7 +253,7 @@ permalink: /projects/
 <h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">업데이트 중</span></h3>
 <p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함</p>
 <p class="project-result"><strong>결과:</strong> 크롤러로 원티드·사람인·잡코리아 공고 수집 → jobs·job_skills 정규화 스키마 설계(외래키·UNIQUE 제약·인덱스) → SQL 집계 쿼리 기반 스택 트렌드·연봉 분포·공동 출현 네트워크 분석 → Dash 대시보드 배포</p>
-<p class="project-impact"><strong>효과:</strong> 크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
+<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -271,7 +271,7 @@ permalink: /projects/
 <h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
 <p class="project-problem"><strong>배경:</strong> Riot API로 실제 데이터를 직접 수집하고, 메타 통계 사이트와 유사한 분석 대시보드를 처음부터 구현해보는 것이 목표</p>
 <p class="project-result"><strong>결과:</strong> 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정 + 대시보드 배포</p>
-<p class="project-impact"><strong>효과:</strong> API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
+<p class="project-impact">API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
@@ -287,7 +287,7 @@ permalink: /projects/
 <h3>로스트아크 경제 시계열 분석<span class="badge-live">업데이트 중</span></h3>
 <p class="project-problem"><strong>문제:</strong> 재화 가격이 왜 오르내리는지 원인 불명확 — 패키지·방송·업데이트 등 이벤트가 실제로 얼마나 충격을 주는지 정량화 수단 없음</p>
 <p class="project-result"><strong>결과:</strong> 공식 API로 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
-<p class="project-impact"><strong>효과:</strong> 정기적 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
+<p class="project-impact">정기적 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">LostArk API</span>
@@ -305,7 +305,7 @@ permalink: /projects/
 <h3>메이플스토리 고레벨 유저 경험치 분석</h3>
 <p class="project-problem"><strong>문제:</strong> 고레벨 구간에서 경험치 효율에 실제로 영향을 주는 요인이 무엇인지 정량적으로 밝혀진 바 없음 — 커뮤니티 경험담에만 의존</p>
 <p class="project-result"><strong>결과:</strong> Nexon API로 Lv.285+ 유저 96,000명+ 경험치 데이터 수집 → 쇼케이스 전후 대응표본 t-검정(p &lt; 0.001), Lv.290~294 구간 +98.3% 증가 확인, 썬데이메이플 유형별 ANOVA(F=7,099, p &lt; 0.001)로 이벤트 효과 검증</p>
-<p class="project-impact"><strong>효과:</strong> 96,000명 실데이터로 쇼케이스·이벤트가 레벨별 사냥 행동에 미치는 영향을 통계적으로 입증 — 커뮤니티 경험담을 수치로 검증</p>
+<p class="project-impact">96,000명 실데이터로 쇼케이스·이벤트가 레벨별 사냥 행동에 미치는 영향을 통계적으로 입증 — 커뮤니티 경험담을 수치로 검증</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Nexon API</span>
@@ -345,7 +345,7 @@ permalink: /projects/
 <h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">업데이트 중</span></h3>
 <p class="project-problem"><strong>문제:</strong> 로스트아크 분석 경험을 다른 게임 경제에도 적용할 수 있는지 확인하고 싶었음 — WoW는 사전 도메인 지식이 전혀 없는 환경</p>
 <p class="project-result"><strong>결과:</strong> Blizzard API로 30일+ 경매장 시세·등록량 1시간 단위 수집 → 한밤 출시 시 구재료 최대 -83% / 신재료 최대 +827% 전환 충격 정량화, WoW 토큰 시세 최고가(301,991G) 대비 시즌1 이후 -29.8% 하락 추적</p>
-<p class="project-impact"><strong>효과:</strong> 도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
+<p class="project-impact">도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">World of Warcraft API</span>
@@ -386,7 +386,7 @@ permalink: /projects/
 <h3>제6회 교육 공공데이터 분석·활용대회<span class="badge-entry">참가</span></h3>
 <p class="project-problem"><strong>문제:</strong> 서울시 특수유아 분포와 특수교사 배치 현황 간 불균등 의심 — 데이터 기반 검증 없이 정책 입안 중</p>
 <p class="project-result"><strong>결과:</strong> 공공데이터 다중 연계 + 다중 회귀 모델링으로 배치 불균등 통계적 검증, 지역별 우선 배치 필요 구간 식별</p>
-<p class="project-impact"><strong>효과:</strong> 데이터 기반 특수교사 배치 우선 지역 도출 및 정책적 개선안 제시</p>
+<p class="project-impact">데이터 기반 특수교사 배치 우선 지역 도출 및 정책적 개선안 제시</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -402,7 +402,7 @@ permalink: /projects/
 <h3>제6회 서울교육 데이터 분석·활용 공모전<span class="badge-entry">참가</span></h3>
 <p class="project-problem"><strong>문제:</strong> 특수교육 대상자와 교육 기관의 공간적 불일치 — 어디에 신규 특수학교를 지어야 하는지 데이터 근거 부재</p>
 <p class="project-result"><strong>결과:</strong> 대상자 분포 + 기관 접근성 지수 공간 분석 → 수요 대비 공급 부족 지역 정량화, 최적 설립 후보지 도출</p>
-<p class="project-impact"><strong>효과:</strong> 데이터 기반 신규 특수학교 설립 우선 지역 제안 — 예산 투입 효율 최대화 방안</p>
+<p class="project-impact">데이터 기반 신규 특수학교 설립 우선 지역 제안 — 예산 투입 효율 최대화 방안</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
