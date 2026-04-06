@@ -81,8 +81,6 @@ title: CV
 
 ## 기술
 
-<p style="font-size:0.8em; opacity:0.6; margin-bottom:1em;">링크가 있는 기술은 실제 프로젝트에서 사용한 기술입니다.</p>
-
 <div class="skill-group">
   <span class="skill-label">언어</span>
   <div class="skill-tags">

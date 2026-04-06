@@ -169,6 +169,37 @@ permalink: /projects/
     background-color: #1a3a1a;
     color: #6fcf6f;
   }
+  .badge-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #e8f8ee;
+    color: #1a7a40;
+    vertical-align: middle;
+    margin-left: 8px;
+  }
+  .badge-live::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    animation: pulse-live 2s infinite;
+    flex-shrink: 0;
+  }
+  @keyframes pulse-live {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  html[data-theme="dark"] .badge-live {
+    background-color: #0d2e1a;
+    color: #4cda82;
+  }
   @media print {
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -219,8 +250,8 @@ permalink: /projects/
 ## 개인 프로젝트
 
 <div class="project-card" id="project-jobsonar">
-<h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스</h3>
-<p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함 — 스택별 수요·연봉 분포·공동 출현 패턴을 한눈에 볼 수 있는 도구가 없음</p>
+<h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">업데이트 중</span></h3>
+<p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함</p>
 <p class="project-result"><strong>결과:</strong> 크롤러로 원티드·사람인·잡코리아 공고 수집 → jobs·job_skills 정규화 스키마 설계(외래키·UNIQUE 제약·인덱스) → SQL 집계 쿼리 기반 스택 트렌드·연봉 분포·공동 출현 네트워크 분석 → Dash 대시보드 배포</p>
 <p class="project-impact"><strong>효과:</strong> 크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
 <div class="project-tags">
@@ -253,15 +284,15 @@ permalink: /projects/
 </div>
 
 <div class="project-card" id="project-loaquant">
-<h3>로스트아크 경제 시계열 분석</h3>
+<h3>로스트아크 경제 시계열 분석<span class="badge-live">업데이트 중</span></h3>
 <p class="project-problem"><strong>문제:</strong> 재화 가격이 왜 오르내리는지 원인 불명확 — 패키지·방송·업데이트 등 이벤트가 실제로 얼마나 충격을 주는지 정량화 수단 없음</p>
-<p class="project-result"><strong>결과:</strong> 공식 API로 47일치 12개 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
-<p class="project-impact"><strong>효과:</strong> 수요일 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
+<p class="project-result"><strong>결과:</strong> 공식 API로 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
+<p class="project-impact"><strong>효과:</strong> 정기적 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">LostArk API</span>
   <span class="tag">시계열 분석</span>
-  <span class="badge-scale">47일치 · 12개 재화 · MAPE 1.29~5.19%</span>
+  <span class="badge-scale">40일 이상 · 12개 재화 · MAPE 1.29~5.19%</span>
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/LoaQuant"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
@@ -311,7 +342,7 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>월드 오브 워크래프트 한밤 경제 분석</h3>
+<h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">업데이트 중</span></h3>
 <p class="project-problem"><strong>문제:</strong> 로스트아크 분석 경험을 다른 게임 경제에도 적용할 수 있는지 확인하고 싶었음 — WoW는 사전 도메인 지식이 전혀 없는 환경</p>
 <p class="project-result"><strong>결과:</strong> Blizzard API로 30일+ 경매장 시세·등록량 1시간 단위 수집 → 한밤 출시 시 구재료 최대 -83% / 신재료 최대 +827% 전환 충격 정량화, WoW 토큰 시세 최고가(301,991G) 대비 시즌1 이후 -29.8% 하락 추적</p>
 <p class="project-impact"><strong>효과:</strong> 도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
