@@ -317,15 +317,10 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>LOABAL - 로스트아크 커뮤니티 감정분석 <span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v4</span></h3>
+<h3>LOABAL - 로스트아크 커뮤니티 감정분석</h3>
 <p class="project-problem"><strong>문제:</strong> 패치 전후 유저 여론 변화를 정량화할 수단 없음 — 게임사 입장에서 수천 개 게시글을 읽지 않고 여론 방향을 파악해야 하는 상황</p>
-<p class="project-result"><strong>결과:</strong> (진행 중) 로스트아크 인벤 직업 게시판 크롤링 → 텍스트 라벨링 + KoBERT 기반 감정 분류 모델 학습 중 (v4, Macro F1 0.61)</p>
-<p class="project-impact"><strong>목표:</strong> 패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시</p>
-<div class="project-progress">
-  <span class="progress-label">진행률 약 85%</span>
-  <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
-  <span class="progress-note">현재: 라벨링 83.6% (2,448/2,929건), 모델 v4 학습 완료 · 전체 데이터 재학습 예정</span>
-</div>
+<p class="project-result"><strong>결과:</strong> 로스트아크 인벤 직업 게시판 크롤링 → 2,929건 전량 직접 라벨링(4클래스) → KoBERT 기반 감정 분류 모델 v5 학습 완료 (범용 Macro F1 0.63, 딜러 Macro F1 0.63)</p>
+<p class="project-impact">패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시 가능</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Web Crawling</span>
