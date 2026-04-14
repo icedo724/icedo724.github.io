@@ -248,39 +248,7 @@ permalink: /projects/
 
 ## 개인 프로젝트
 
-<div class="project-card" id="project-jobsonar">
-<h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
-<p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함</p>
-<p class="project-result"><strong>결과:</strong> 크롤러로 원티드·사람인·잡코리아 공고 수집 → jobs·job_skills 정규화 스키마 설계(외래키·UNIQUE 제약·인덱스) → SQL 집계 쿼리 기반 스택 트렌드·연봉 분포·공동 출현 네트워크 분석 → Dash 대시보드 배포</p>
-<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
-<div class="project-tags">
-  <span class="tag">Python</span>
-  <span class="tag">SQL</span>
-  <span class="tag">SQLite</span>
-  <span class="tag">Web Crawling</span>
-  <span class="tag">Dash</span>
-</div>
-<div class="project-links">
-  <a class="project-link" href="https://github.com/icedo724/JobSonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
-  <a class="project-link" href="https://huggingface.co/spaces/mininiming/jobsonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
-</div>
-</div>
-
-<div class="project-card">
-<h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
-<p class="project-problem"><strong>배경:</strong> Riot API로 실제 데이터를 직접 수집하고, 메타 통계 사이트와 유사한 분석 대시보드를 처음부터 구현해보는 것이 목표</p>
-<p class="project-result"><strong>결과:</strong> 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정 + 대시보드 배포</p>
-<p class="project-impact">API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
-<div class="project-tags">
-  <span class="tag">Python</span>
-  <span class="tag">Riot API</span>
-  <span class="tag">통계 검정</span>
-</div>
-<div class="project-links">
-  <a class="project-link" href="https://github.com/icedo724/LoL-DashBoard"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
-  <a class="project-link" href="https://lolhighplayer.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
-</div>
-</div>
+### 로스트아크
 
 <div class="project-card" id="project-loaquant">
 <h3>로스트아크 경제 시계열 분석<span class="badge-live">Live</span></h3>
@@ -296,23 +264,6 @@ permalink: /projects/
   <a class="project-link" href="https://github.com/icedo724/LoaQuant"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
   <a class="project-link" href="https://www.notion.so/miniminimin/318fbcdaed2880cd8de8dd88406d3564?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
   <a class="project-link" href="https://loaquant.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
-</div>
-</div>
-
-<div class="project-card">
-<h3>메이플스토리 고레벨 유저 경험치 분석</h3>
-<p class="project-problem"><strong>문제:</strong> 고레벨 구간에서 경험치 효율에 실제로 영향을 주는 요인이 무엇인지 정량적으로 밝혀진 바 없음 — 커뮤니티 경험담에만 의존</p>
-<p class="project-result"><strong>결과:</strong> Nexon API로 Lv.285+ 유저 96,000명+ 경험치 데이터 수집 → 쇼케이스 전후 대응표본 t-검정(p &lt; 0.001), Lv.290~294 구간 +98.3% 증가 확인, 썬데이메이플 유형별 ANOVA(F=7,099, p &lt; 0.001)로 이벤트 효과 검증</p>
-<p class="project-impact">96,000명 실데이터로 쇼케이스·이벤트가 레벨별 사냥 행동에 미치는 영향을 통계적으로 입증 — 커뮤니티 경험담을 수치로 검증</p>
-<div class="project-tags">
-  <span class="tag">Python</span>
-  <span class="tag">Nexon API</span>
-  <span class="tag">통계 검정</span>
-</div>
-<div class="project-links">
-  <a class="project-link" href="https://github.com/icedo724/Maplestory_Exp_Analysis"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
-  <a class="project-link" href="https://www.notion.so/miniminimin/32afbcdaed288075a929eb7f533361b0?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
-  <a class="project-link" href="https://maple-exp-analysis.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
 </div>
 </div>
 
@@ -333,20 +284,40 @@ permalink: /projects/
 </div>
 </div>
 
+### 메이플스토리
+
 <div class="project-card">
-<h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">Live</span></h3>
-<p class="project-problem"><strong>문제:</strong> 로스트아크 분석 경험을 다른 게임 경제에도 적용할 수 있는지 확인하고 싶었음 — WoW는 사전 도메인 지식이 전혀 없는 환경</p>
-<p class="project-result"><strong>결과:</strong> Blizzard API로 30일+ 경매장 시세·등록량 1시간 단위 수집 → 한밤 출시 시 구재료 최대 -83% / 신재료 최대 +827% 전환 충격 정량화, WoW 토큰 시세 최고가(301,991G) 대비 시즌1 이후 -29.8% 하락 추적</p>
-<p class="project-impact">도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
+<h3>메이플스토리 고레벨 유저 경험치 분석</h3>
+<p class="project-problem"><strong>문제:</strong> 고레벨 구간에서 경험치 효율에 실제로 영향을 주는 요인이 무엇인지 정량적으로 밝혀진 바 없음 — 커뮤니티 경험담에만 의존</p>
+<p class="project-result"><strong>결과:</strong> Nexon API로 Lv.285+ 유저 96,000명+ 경험치 데이터 수집 → 쇼케이스 전후 대응표본 t-검정(p &lt; 0.001), Lv.290~294 구간 +98.3% 증가 확인, 썬데이메이플 유형별 ANOVA(F=7,099, p &lt; 0.001)로 이벤트 효과 검증</p>
+<p class="project-impact">96,000명 실데이터로 쇼케이스·이벤트가 레벨별 사냥 행동에 미치는 영향을 통계적으로 입증 — 커뮤니티 경험담을 수치로 검증</p>
 <div class="project-tags">
   <span class="tag">Python</span>
-  <span class="tag">World of Warcraft API</span>
+  <span class="tag">Nexon API</span>
   <span class="tag">통계 검정</span>
 </div>
 <div class="project-links">
-  <a class="project-link" href="https://github.com/icedo724/WoW-Auction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
-  <a class="project-link" href="https://www.notion.so/miniminimin/32bfbcdaed288053bcfef33ce58e2d14?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
-  <a class="project-link" href="https://wowauction.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
+  <a class="project-link" href="https://github.com/icedo724/Maplestory_Exp_Analysis"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://www.notion.so/miniminimin/32afbcdaed288075a929eb7f533361b0?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
+  <a class="project-link" href="https://maple-exp-analysis.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
+</div>
+</div>
+
+### 리그오브레전드
+
+<div class="project-card">
+<h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
+<p class="project-problem"><strong>배경:</strong> Riot API로 실제 데이터를 직접 수집하고, 메타 통계 사이트와 유사한 분석 대시보드를 처음부터 구현해보는 것이 목표</p>
+<p class="project-result"><strong>결과:</strong> 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정 + 대시보드 배포</p>
+<p class="project-impact">API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">Riot API</span>
+  <span class="tag">통계 검정</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/LoL-DashBoard"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://lolhighplayer.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
 </div>
 </div>
 
@@ -368,6 +339,45 @@ permalink: /projects/
 </div>
 <div class="project-links">
   <a class="project-link" href="https://github.com/icedo724/Loracle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+</div>
+</div>
+
+### 월드 오브 워크래프트
+
+<div class="project-card">
+<h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">Live</span></h3>
+<p class="project-problem"><strong>문제:</strong> 로스트아크 분석 경험을 다른 게임 경제에도 적용할 수 있는지 확인하고 싶었음 — WoW는 사전 도메인 지식이 전혀 없는 환경</p>
+<p class="project-result"><strong>결과:</strong> Blizzard API로 30일+ 경매장 시세·등록량 1시간 단위 수집 → 한밤 출시 시 구재료 최대 -83% / 신재료 최대 +827% 전환 충격 정량화, WoW 토큰 시세 최고가(301,991G) 대비 시즌1 이후 -29.8% 하락 추적</p>
+<p class="project-impact">도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">World of Warcraft API</span>
+  <span class="tag">통계 검정</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/WoW-Auction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://www.notion.so/miniminimin/32bfbcdaed288053bcfef33ce58e2d14?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
+  <a class="project-link" href="https://wowauction.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
+</div>
+</div>
+
+### 게임 외
+
+<div class="project-card" id="project-jobsonar">
+<h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
+<p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함</p>
+<p class="project-result"><strong>결과:</strong> 크롤러로 원티드·사람인·잡코리아 공고 수집 → jobs·job_skills 정규화 스키마 설계(외래키·UNIQUE 제약·인덱스) → SQL 집계 쿼리 기반 스택 트렌드·연봉 분포·공동 출현 네트워크 분석 → Dash 대시보드 배포</p>
+<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">SQL</span>
+  <span class="tag">SQLite</span>
+  <span class="tag">Web Crawling</span>
+  <span class="tag">Dash</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/JobSonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://huggingface.co/spaces/mininiming/jobsonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
 </div>
 </div>
 
