@@ -200,48 +200,6 @@ permalink: /projects/
     background-color: #0d2e1a;
     color: #4cda82;
   }
-  details.game-section {
-    border: 1px solid var(--color-border);
-    border-radius: 10px;
-    margin-bottom: 1.2em;
-    overflow: hidden;
-  }
-  details.game-section > summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 0.75em 1.2em;
-    font-size: 0.95em;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    user-select: none;
-  }
-  details.game-section > summary::-webkit-details-marker { display: none; }
-  details.game-section > summary::before {
-    content: '▶';
-    font-size: 0.65em;
-    opacity: 0.5;
-    transition: transform 0.2s;
-    flex-shrink: 0;
-  }
-  details.game-section[open] > summary::before {
-    transform: rotate(90deg);
-  }
-  details.game-section > summary:hover {
-    background: var(--color-border);
-    border-radius: 10px;
-  }
-  details.game-section[open] > summary {
-    border-bottom: 1px solid var(--color-border);
-    border-radius: 10px 10px 0 0;
-  }
-  details.game-section[open] > summary:hover {
-    border-radius: 10px 10px 0 0;
-  }
-  .game-section-inner {
-    padding: 1em 1em 0.2em 1em;
-  }
   @media print {
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -274,9 +232,7 @@ permalink: /projects/
 
 <div class="project-card" id="project-medi">
 <h3>거래처 데이터 보강 및 등급 재조정 방안 제시</h3>
-<p class="project-problem"><strong>문제:</strong> 영업 담당자 직관에만 의존하던 거래처 등급 체계 — 정량 기준 없어 이의제기·갱신 불가</p>
-<p class="project-result"><strong>결과:</strong> 건강보험 공공데이터 3종 + 내부 2년 거래 이력 연계 → RFM·ABC 분석으로 기존 2등급 → 6등급 세분화, 카이제곱 검정 p &lt; 0.05 통계적 유의성 확보</p>
-<p class="project-impact">정량 기반 등급 기준 수립 및 자동 최신화 파이프라인 구축, 영업 우선순위 재편 근거 마련</p>
+<p class="project-impact">직관에 의존하던 거래처 등급을 정량 기준으로 전환 — 영업 우선순위 재편의 데이터 근거 마련</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -290,15 +246,11 @@ permalink: /projects/
 
 ## 개인 프로젝트
 
-<details class="game-section" open>
-<summary>로스트아크</summary>
-<div class="game-section-inner">
+### 로스트아크
 
 <div class="project-card" id="project-loaquant">
 <h3>로스트아크 경제 시계열 분석<span class="badge-live">Live</span></h3>
-<p class="project-problem"><strong>문제:</strong> 재화 가격이 왜 오르내리는지 원인 불명확 — 패키지·방송·업데이트 등 이벤트가 실제로 얼마나 충격을 주는지 정량화 수단 없음</p>
-<p class="project-result"><strong>결과:</strong> 공식 API로 재화 시계열 수집 → ARIMA·Prophet 이원 적용, MAPE 1.29~5.19% 달성, 비정기 이벤트 충격 최대 ±14% 정량화, 재화 유형별 수요일 효과 반전 패턴 발견</p>
-<p class="project-impact">정기적 효과·이벤트 레이어를 탑재한 1시간 단위 업데이트 대시보드로 "구매 적기" 판단 근거 제공</p>
+<p class="project-impact">재화 가격 변동 원인을 이벤트 단위로 분해, 다음 충격 규모를 미리 가늠할 수 있는 판단 기준 제공</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">LostArk API</span>
@@ -313,9 +265,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>LOABAL - 로스트아크 커뮤니티 감정분석</h3>
-<p class="project-problem"><strong>문제:</strong> 패치 전후 유저 여론 변화를 정량화할 수단 없음 — 게임사 입장에서 수천 개 게시글을 읽지 않고 여론 방향을 파악해야 하는 상황</p>
-<p class="project-result"><strong>결과:</strong> 로스트아크 인벤 직업 게시판 크롤링 → 2,929건 전량 직접 라벨링(4클래스) → KoBERT 기반 감정 분류 모델 v5 학습 완료 (범용 Macro F1 0.63, 딜러 Macro F1 0.63)</p>
-<p class="project-impact">패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시 가능</p>
+<p class="project-impact">패치 전후 유저 감성 점수 시계열 시각화 → "이번 패치에 유저들이 어떻게 반응했는가"를 정량으로 제시</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Web Crawling</span>
@@ -328,18 +278,11 @@ permalink: /projects/
 </div>
 </div>
 
-</div>
-</details>
-
-<details class="game-section" open>
-<summary>메이플스토리</summary>
-<div class="game-section-inner">
+### 메이플스토리
 
 <div class="project-card">
 <h3>메이플스토리 고레벨 유저 경험치 분석</h3>
-<p class="project-problem"><strong>문제:</strong> 고레벨 구간에서 경험치 효율에 실제로 영향을 주는 요인이 무엇인지 정량적으로 밝혀진 바 없음 — 커뮤니티 경험담에만 의존</p>
-<p class="project-result"><strong>결과:</strong> Nexon API로 Lv.285+ 유저 96,000명+ 경험치 데이터 수집 → 쇼케이스 전후 대응표본 t-검정(p &lt; 0.001), Lv.290~294 구간 +98.3% 증가 확인, 썬데이메이플 유형별 ANOVA(F=7,099, p &lt; 0.001)로 이벤트 효과 검증</p>
-<p class="project-impact">96,000명 실데이터로 쇼케이스·이벤트가 레벨별 사냥 행동에 미치는 영향을 통계적으로 입증 — 커뮤니티 경험담을 수치로 검증</p>
+<p class="project-impact">285레벨 이상 활성 유저 96,000명 실데이터로 신규 지역 공개에 따른 영향, 썬데이 메이플에 따른 영향 분석</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Nexon API</span>
@@ -352,18 +295,11 @@ permalink: /projects/
 </div>
 </div>
 
-</div>
-</details>
-
-<details class="game-section" open>
-<summary>리그오브레전드</summary>
-<div class="game-section-inner">
+### 리그오브레전드
 
 <div class="project-card">
 <h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
-<p class="project-problem"><strong>배경:</strong> Riot API로 실제 데이터를 직접 수집하고, 메타 통계 사이트와 유사한 분석 대시보드를 처음부터 구현해보는 것이 목표</p>
-<p class="project-result"><strong>결과:</strong> 마스터 이상 매치 데이터 수집 → 챔피언별 픽률-승률 사분면 분류(OP·숨겨진 강자·인기챔·비추) + 아이템 트리 상관관계 통계 검정 + 대시보드 배포</p>
-<p class="project-impact">API 수집 → 통계 분석 → 시각화 → 배포까지 전 과정을 직접 구현하며 데이터 파이프라인 흐름 체득</p>
+<p class="project-impact">마스터 이상 실데이터 기반 챔피언 픽률·승률 사분면 분류 — 메타 통계 서비스와 유사한 구조를 구현</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Riot API</span>
@@ -377,9 +313,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
-<p class="project-problem"><strong>문제:</strong> 패치마다 챔피언 너프·버프 방향을 예측하는 정량 기준 없음 — 유저와 분석가 모두 패치 노트 공개 전까지 추측에 의존</p>
-<p class="project-result"><strong>결과:</strong> (진행 중) 마스터 이상 매치 로그 수집 (패치 16.1~16.6, 약 3개월치) → 포지션·승률·픽률·밴률 기반 분류·회귀 모델 v5 학습 완료</p>
-<p class="project-impact"><strong>목표:</strong> 1년치 데이터(약 24패치) 수집 완료 후 패치 방향 예측 정확도 검증 및 배포</p>
+<p class="project-impact"><strong>목표:</strong> 6패치 데이터로 분류·회귀 모델 v5 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
 <div class="project-progress">
   <span class="progress-label">진행률 약 25%</span>
   <div class="progress-bar"><div class="progress-fill" style="width: 25%"></div></div>
@@ -396,18 +330,13 @@ permalink: /projects/
 </div>
 </div>
 
-</div>
-</details>
-
 <details class="game-section" open>
 <summary>월드 오브 워크래프트</summary>
 <div class="game-section-inner">
 
 <div class="project-card">
 <h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">Live</span></h3>
-<p class="project-problem"><strong>문제:</strong> 로스트아크 분석 경험을 다른 게임 경제에도 적용할 수 있는지 확인하고 싶었음 — WoW는 사전 도메인 지식이 전혀 없는 환경</p>
-<p class="project-result"><strong>결과:</strong> Blizzard API로 30일+ 경매장 시세·등록량 1시간 단위 수집 → 한밤 출시 시 구재료 최대 -83% / 신재료 최대 +827% 전환 충격 정량화, WoW 토큰 시세 최고가(301,991G) 대비 시즌1 이후 -29.8% 하락 추적</p>
-<p class="project-impact">도메인 지식 없이 데이터 패턴만으로 경제 구조 해석에 성공 — 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
+<p class="project-impact">신규 확장팩 '한밤'에 따른 경제 변동 분석 및 로스트아크 분석 프레임워크의 이식 가능성 확인</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">World of Warcraft API</span>
@@ -420,18 +349,13 @@ permalink: /projects/
 </div>
 </div>
 
-</div>
-</details>
-
 <details class="game-section" open>
 <summary>게임 외</summary>
 <div class="game-section-inner">
 
 <div class="project-card" id="project-jobsonar">
 <h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
-<p class="project-problem"><strong>문제:</strong> 데이터직군 채용 트렌드를 파악하려면 여러 플랫폼을 수동으로 순회해야 함</p>
-<p class="project-result"><strong>결과:</strong> 크롤러로 원티드·사람인·잡코리아 공고 수집 → jobs·job_skills 정규화 스키마 설계(외래키·UNIQUE 제약·인덱스) → SQL 집계 쿼리 기반 스택 트렌드·연봉 분포·공동 출현 네트워크 분석 → Dash 대시보드 배포</p>
-<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화까지 데이터 파이프라인 전 과정을 직접 설계·구현</p>
+<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화 과정 설계 및 구현</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
@@ -445,15 +369,10 @@ permalink: /projects/
 </div>
 </div>
 
-</div>
-</details>
-
 ## 공모전 및 기타 저장소
 
 <div class="project-card">
 <h3>제6회 교육 공공데이터 분석·활용대회<span class="badge-entry">참가</span></h3>
-<p class="project-problem"><strong>문제:</strong> 서울시 특수유아 분포와 특수교사 배치 현황 간 불균등 의심 — 데이터 기반 검증 없이 정책 입안 중</p>
-<p class="project-result"><strong>결과:</strong> 공공데이터 다중 연계 + 다중 회귀 모델링으로 배치 불균등 통계적 검증, 지역별 우선 배치 필요 구간 식별</p>
 <p class="project-impact">데이터 기반 특수교사 배치 우선 지역 도출 및 정책적 개선안 제시</p>
 <div class="project-tags">
   <span class="tag">Python</span>
@@ -468,8 +387,6 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>제6회 서울교육 데이터 분석·활용 공모전<span class="badge-entry">참가</span></h3>
-<p class="project-problem"><strong>문제:</strong> 특수교육 대상자와 교육 기관의 공간적 불일치 — 어디에 신규 특수학교를 지어야 하는지 데이터 근거 부재</p>
-<p class="project-result"><strong>결과:</strong> 대상자 분포 + 기관 접근성 지수 공간 분석 → 수요 대비 공급 부족 지역 정량화, 최적 설립 후보지 도출</p>
 <p class="project-impact">데이터 기반 신규 특수학교 설립 우선 지역 제안 — 예산 투입 효율 최대화 방안</p>
 <div class="project-tags">
   <span class="tag">Python</span>
