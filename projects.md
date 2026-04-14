@@ -200,6 +200,48 @@ permalink: /projects/
     background-color: #0d2e1a;
     color: #4cda82;
   }
+  details.game-section {
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    overflow: hidden;
+  }
+  details.game-section > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.75em 1.2em;
+    font-size: 0.95em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+  }
+  details.game-section > summary::-webkit-details-marker { display: none; }
+  details.game-section > summary::before {
+    content: '▶';
+    font-size: 0.65em;
+    opacity: 0.5;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+  details.game-section[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  details.game-section > summary:hover {
+    background: var(--color-border);
+    border-radius: 10px;
+  }
+  details.game-section[open] > summary {
+    border-bottom: 1px solid var(--color-border);
+    border-radius: 10px 10px 0 0;
+  }
+  details.game-section[open] > summary:hover {
+    border-radius: 10px 10px 0 0;
+  }
+  .game-section-inner {
+    padding: 1em 1em 0.2em 1em;
+  }
   @media print {
     body, h1, h2, h3, h4, p, li, span {
       background-color: #fff !important;
@@ -248,7 +290,9 @@ permalink: /projects/
 
 ## 개인 프로젝트
 
-### 로스트아크
+<details class="game-section" open>
+<summary>로스트아크</summary>
+<div class="game-section-inner">
 
 <div class="project-card" id="project-loaquant">
 <h3>로스트아크 경제 시계열 분석<span class="badge-live">Live</span></h3>
@@ -284,7 +328,12 @@ permalink: /projects/
 </div>
 </div>
 
-### 메이플스토리
+</div>
+</details>
+
+<details class="game-section" open>
+<summary>메이플스토리</summary>
+<div class="game-section-inner">
 
 <div class="project-card">
 <h3>메이플스토리 고레벨 유저 경험치 분석</h3>
@@ -303,7 +352,12 @@ permalink: /projects/
 </div>
 </div>
 
-### 리그오브레전드
+</div>
+</details>
+
+<details class="game-section" open>
+<summary>리그오브레전드</summary>
+<div class="game-section-inner">
 
 <div class="project-card">
 <h3>리그오브레전드 상위 플레이어 메타 대시보드 구축</h3>
@@ -342,7 +396,12 @@ permalink: /projects/
 </div>
 </div>
 
-### 월드 오브 워크래프트
+</div>
+</details>
+
+<details class="game-section" open>
+<summary>월드 오브 워크래프트</summary>
+<div class="game-section-inner">
 
 <div class="project-card">
 <h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">Live</span></h3>
@@ -361,7 +420,12 @@ permalink: /projects/
 </div>
 </div>
 
-### 게임 외
+</div>
+</details>
+
+<details class="game-section" open>
+<summary>게임 외</summary>
+<div class="game-section-inner">
 
 <div class="project-card" id="project-jobsonar">
 <h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
@@ -380,6 +444,9 @@ permalink: /projects/
   <a class="project-link" href="https://huggingface.co/spaces/mininiming/jobsonar"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
 </div>
 </div>
+
+</div>
+</details>
 
 ## 공모전 및 기타 저장소
 
