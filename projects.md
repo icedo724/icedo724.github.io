@@ -313,7 +313,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
-<p class="project-impact"><strong>목표:</strong> 6패치 데이터로 분류·회귀 모델 v5 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
+<p class="project-impact">6패치 데이터로 분류·회귀 모델 v5 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
 <div class="project-progress">
   <span class="progress-label">진행률 약 25%</span>
   <div class="progress-bar"><div class="progress-fill" style="width: 25%"></div></div>
@@ -330,9 +330,8 @@ permalink: /projects/
 </div>
 </div>
 
-<details class="game-section" open>
-<summary>월드 오브 워크래프트</summary>
-<div class="game-section-inner">
+### 월드 오브 워크래프트
+
 
 <div class="project-card">
 <h3>월드 오브 워크래프트 한밤 경제 분석<span class="badge-live">Live</span></h3>
@@ -349,9 +348,8 @@ permalink: /projects/
 </div>
 </div>
 
-<details class="game-section" open>
-<summary>게임 외</summary>
-<div class="game-section-inner">
+### 게임 외
+
 
 <div class="project-card" id="project-jobsonar">
 <h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
