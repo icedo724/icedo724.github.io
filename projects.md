@@ -228,6 +228,8 @@ permalink: /projects/
 
 # 주요 프로젝트
 
+<p style="font-size:0.85em; opacity:0.6; margin-top:-0.5em;">일부 대시보드는 Streamlit Cloud에서 슬립 상태일 수 있습니다. 접속 시 <strong>Yes, get this app back up!</strong> 버튼을 누르면 재시작됩니다.</p>
+
 ## 실무 프로젝트
 
 <div class="project-card" id="project-medi">
