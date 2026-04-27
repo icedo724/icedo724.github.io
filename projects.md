@@ -370,7 +370,7 @@ permalink: /projects/
 ### 배틀그라운드
 
 <div class="project-card">
-<h3>배틀그라운드 유저 클러스터링<span class="badge-wip">진행 중</span></h3>
+<h3>배틀그라운드 유저 클러스터링</h3>
 <p class="project-impact">플레이어 6,759명을 행동 패턴 기반 4개 세그먼트로 분류 — 단일 KPI 설계의 한계를 실증하고, 세그먼트별 독립 KPI와 층화 무작위 배정 기반 A/B 실험 프레임워크 구축</p>
 <div class="project-tags">
   <span class="tag">Python</span>
