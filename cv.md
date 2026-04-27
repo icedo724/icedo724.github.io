@@ -62,6 +62,67 @@ title: CV
     opacity: 0.5;
     font-size: 0.92em;
   }
+  .game-more-toggle {
+    margin-top: 0.6em;
+    margin-bottom: 0.4em;
+  }
+  .game-more-toggle > summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8em;
+    opacity: 0.55;
+    user-select: none;
+    padding: 2px 0;
+  }
+  .game-more-toggle > summary::-webkit-details-marker { display: none; }
+  .game-more-toggle > summary::before {
+    content: '▶';
+    font-size: 0.7em;
+    transition: transform 0.2s;
+  }
+  .game-more-toggle[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .game-more-toggle > summary:hover { opacity: 0.85; }
+  .series-toggle {
+    margin: 0.6em 0 0.2em 0;
+  }
+  .series-toggle > summary {
+    list-style: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.82em;
+    font-weight: 600;
+    user-select: none;
+    padding: 2px 0;
+  }
+  .series-toggle > summary::-webkit-details-marker { display: none; }
+  .series-toggle > summary::before {
+    content: '▶';
+    font-size: 0.65em;
+    opacity: 0.5;
+    transition: transform 0.2s;
+  }
+  .series-toggle[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .series-toggle > summary:hover { opacity: 0.75; }
+  .series-list {
+    list-style: none;
+    padding: 0.3em 0 0.3em 1.2em;
+    margin: 0;
+  }
+  .series-list li {
+    font-size: 0.82em;
+    opacity: 0.75;
+    padding: 1px 0;
+    line-height: 1.6;
+  }
 </style>
 
 # 학력 및 자격
@@ -153,6 +214,63 @@ title: CV
     <span class="game-genre">플랫폼 게임</span>
     <span class="game-period">10년 이상</span>
   </div>
+  <details class="game-more-toggle">
+    <summary>플레이한 게임 타이틀 전체보기</summary>
+    <p style="font-size:0.78em; opacity:0.5; margin: 0.3em 0 0.6em 0;">엔딩 크레딧 확인 기준</p>
+    <details class="series-toggle">
+      <summary>포켓몬스터 시리즈</summary>
+      <ul class="series-list">
+        <li>본가 2~9세대 메인 시리즈</li>
+        <li>Pokémon LEGENDS 아르세우스</li>
+        <li>Pokémon LEGENDS Z-A</li>
+        <li>포켓몬 포코피아</li>
+        <li>포켓몬 챔피언스</li>
+      </ul>
+    </details>
+    <details class="series-toggle">
+      <summary>젤다의 전설 시리즈</summary>
+      <ul class="series-list">
+        <li>몽환의 모래시계</li>
+        <li>스카이워드 소드</li>
+        <li>브레스 오브 더 와일드</li>
+        <li>티어스 오브 더 킹덤</li>
+        <li>지혜의 투영</li>
+      </ul>
+    </details>
+    <details class="series-toggle">
+      <summary>슈퍼마리오 시리즈</summary>
+      <ul class="series-list">
+        <li>뉴 슈퍼 마리오브라더스</li>
+        <li>마리오 파티 DS</li>
+        <li>뉴 슈퍼 마리오브라더스 Wii</li>
+        <li>마리오 카트 Wii</li>
+        <li>슈퍼 마리오 갤럭시 1·2</li>
+        <li>슈퍼 마리오 64</li>
+        <li>슈퍼 마리오 메이커 2</li>
+        <li>슈퍼 마리오 오디세이</li>
+        <li>마리오 카트 월드</li>
+        <li>동키콩 바난자</li>
+      </ul>
+    </details>
+    <details class="series-toggle">
+      <summary>몬스터헌터 시리즈</summary>
+      <ul class="series-list">
+        <li>몬스터 헌터 월드·아이스본</li>
+        <li>몬스터 헌터 라이즈·선브레이크</li>
+        <li>몬스터 헌터 와일즈</li>
+      </ul>
+    </details>
+    <details class="series-toggle">
+      <summary>이외 콘솔게임</summary>
+      <ul class="series-list">
+        <li>다크 소울 1·2·3</li>
+        <li>엘든 링</li>
+        <li>세키로: 섀도우 다이 트와이스</li>
+        <li>클레르 옵스퀴르: 33 원정대</li>
+        <li>붉은사막 (플레이 진행중)</li>
+      </ul>
+    </details>
+  </details>
 </div>
 
 <div style="text-align: center; margin-bottom: 40px; margin-top: 20px;">
