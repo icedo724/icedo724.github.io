@@ -333,9 +333,9 @@ permalink: /projects/
 <h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
 <p class="project-impact">6패치 데이터로 분류·회귀 모델 v5 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
 <div class="project-progress">
-  <span class="progress-label">진행률 약 25%</span>
-  <div class="progress-bar"><div class="progress-fill" style="width: 25%"></div></div>
-  <span class="progress-note">현재: 6패치분 수집 완료 · 목표 24패치 (1년치)</span>
+  <span class="progress-label">진행률 약 29%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 29%"></div></div>
+  <span class="progress-note">현재: 7패치분 수집 완료 · 목표 24패치 (1년치)</span>
 </div>
 <div class="project-tags">
   <span class="tag">Python</span>
@@ -364,6 +364,24 @@ permalink: /projects/
   <a class="project-link" href="https://github.com/icedo724/WoW-Auction"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
   <a class="project-link" href="https://www.notion.so/miniminimin/32bfbcdaed288053bcfef33ce58e2d14?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
   <a class="project-link" href="https://wowauction.streamlit.app/"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
+</div>
+</div>
+
+### 배틀그라운드
+
+<div class="project-card">
+<h3>배틀그라운드 유저 클러스터링<span class="badge-wip">진행 중</span></h3>
+<p class="project-impact">플레이어 6,759명을 행동 패턴 기반 4개 세그먼트로 분류 — 단일 KPI 설계의 한계를 실증하고, 세그먼트별 독립 KPI와 층화 무작위 배정 기반 A/B 실험 프레임워크 구축</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">PUBG API</span>
+  <span class="tag">클러스터링</span>
+  <span class="tag">PCA</span>
+  <span class="tag">A/B 테스트</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/pubg_clustering"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://www.notion.so/miniminimin/PUBG-344fbcdaed2880908668fb1db24185c1?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
 </div>
 </div>
 
