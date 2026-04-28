@@ -192,7 +192,7 @@ title: CV
   </div>
   <div class="game-entry">
     <span class="game-name">AFK 새로운 여정</span>
-    <span class="game-genre">MMORPG</span>
+    <span class="game-genre">방치형 RPG</span>
     <span class="game-period">1년 이상</span>
   </div>
 </div>
