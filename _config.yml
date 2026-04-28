@@ -34,6 +34,8 @@ exclude:
   - Gemfile
   - vendor/
 
+google_analytics: "G-TFXMCDVXKP"
+
 plugins:
   - jekyll-feed
   - jekyll-gist
