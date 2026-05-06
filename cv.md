@@ -123,9 +123,50 @@ title: CV
     padding: 1px 0;
     line-height: 1.6;
   }
+  .key-project {
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+  }
+  .key-project-title {
+    font-weight: 600;
+    font-size: 0.92em;
+  }
+  .key-project-desc {
+    font-size: 0.85em;
+    opacity: 0.8;
+  }
+  @media (max-width: 600px) {
+    .game-entry {
+      grid-template-columns: 1fr;
+      gap: 0;
+      padding: 4px 0;
+    }
+    .game-period {
+      font-size: 0.78em;
+    }
+  }
 </style>
 
 # 학력 및 자격
+
+## 주요 프로젝트
+
+자세한 내용은 [Projects](/projects/) 페이지 참조.
+
+<div class="key-project">
+  <span class="key-project-title">거래처 데이터 보강 및 등급 재조정</span> &nbsp;<span class="skill-tag">실무</span><br>
+  <span class="key-project-desc">직관에 의존하던 거래처 등급을 정량 기준으로 전환 — 영업 우선순위 재편의 데이터 근거 마련 (Python / SQL / 카이제곱 검정)</span>
+</div>
+
+<div class="key-project">
+  <span class="key-project-title">로스트아크 경제 시계열 분석</span> &nbsp;<span class="skill-tag">개인</span><br>
+  <span class="key-project-desc">재화 가격 변동 원인을 이벤트 단위로 분해 — 다음 충격 규모를 가늠하는 판단 기준 제공 (Python / LostArk API / 시계열 분석)</span>
+</div>
+
+<div class="key-project">
+  <span class="key-project-title">붉은사막 Steam 리뷰 분석</span> &nbsp;<span class="skill-tag">개인</span><br>
+  <span class="key-project-desc">출시 후 6주 만족도 추세를 외부 AAA 출시작 2종과 정량 비교 — 핫픽스 시점 효과를 시계열 회귀로 입증 (Python / Steam API / NLP)</span>
+</div>
 
 ## 학력
 * **한국방송통신대학교** | 통계·데이터과학과 (2024.09 ~ 재학 중)
@@ -215,7 +256,7 @@ title: CV
     <span class="game-period">10년 이상</span>
   </div>
   <details class="game-more-toggle">
-    <summary>플레이한 게임 타이틀 전체보기</summary>
+    <summary>플레이한 콘솔 게임 타이틀 전체보기</summary>
     <p style="font-size:0.78em; opacity:0.5; margin: 0.3em 0 0.6em 0;">엔딩 크레딧 확인 기준</p>
     <details class="series-toggle">
       <summary>포켓몬스터 시리즈</summary>
@@ -267,7 +308,7 @@ title: CV
         <li>엘든 링</li>
         <li>세키로: 섀도우 다이 트와이스</li>
         <li>클레르 옵스퀴르: 33 원정대</li>
-        <li>붉은사막 (플레이 진행중)</li>
+        <li>붉은사막 (플레이 중)</li>
       </ul>
     </details>
   </details>
@@ -279,13 +320,6 @@ title: CV
     <span style="display: flex; align-items: center; gap: 4px;">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
       <a href="mailto:{{ site.author.email }}" style="color: inherit; text-decoration: none;">{{ site.author.email }}</a>
-    </span>
-
-    <span style="opacity: 0.3; margin: 0 2px;">|</span>
-
-    <span style="display: flex; align-items: center; gap: 4px;">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-      {{ site.phone }}
     </span>
 
     <span style="opacity: 0.3; margin: 0 2px;">|</span>

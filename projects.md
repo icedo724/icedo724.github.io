@@ -284,7 +284,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>메이플스토리 고레벨 유저 경험치 분석</h3>
-<p class="project-impact">285레벨 이상 활성 유저 96,000명 실데이터로 신규 지역 공개에 따른 영향, 썬데이 메이플에 따른 영향 분석</p>
+<p class="project-impact">285레벨 이상 활성 유저 96,000명 실데이터로 신규 지역 공개·썬데이 메이플의 경험치 영향을 정량 측정</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Nexon API</span>
@@ -299,7 +299,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>메이플스토리 유저 행동 클러스터링</h3>
-<p class="project-impact">활동 패턴·성장 효율 기반 유저 군집화 → 클러스터별 이탈 시점과 쇼케이스 반응 차이를 생존 분석으로 통계 검증</p>
+<p class="project-impact">활동·성장 패턴 기반 유저 군집화 → 클러스터별 이탈 시점과 쇼케이스 반응 차이를 생존 분석으로 검증</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">Nexon API</span>
@@ -371,7 +371,7 @@ permalink: /projects/
 
 <div class="project-card">
 <h3>배틀그라운드 유저 클러스터링</h3>
-<p class="project-impact">플레이어 6,759명을 행동 패턴 기반 4개 세그먼트로 분류 — 단일 KPI 설계의 한계를 실증하고, 세그먼트별 독립 KPI와 층화 무작위 배정 기반 A/B 실험 프레임워크 구축</p>
+<p class="project-impact">유저 6,759명을 행동 패턴 4개 세그먼트로 분류 — 세그먼트별 독립 KPI 설계로 A/B 실험 정밀도를 높이는 프레임워크 구축</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">PUBG API</span>
@@ -408,7 +408,7 @@ permalink: /projects/
 
 <div class="project-card" id="project-jobsonar">
 <h3>JobSonar - 데이터직군 채용공고 수집 및 조회 서비스<span class="badge-live">Live</span></h3>
-<p class="project-impact">크롤링 → DB 설계 → SQL 집계 → 시각화 과정 설계 및 구현</p>
+<p class="project-impact">데이터직군 채용공고 자동 수집 → 직무·기술 스택 빈도 시각화 — 취업 시장 트렌드를 한 페이지에 집약</p>
 <div class="project-tags">
   <span class="tag">Python</span>
   <span class="tag">SQL</span>
