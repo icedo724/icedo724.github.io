@@ -149,25 +149,6 @@ title: CV
 
 # 학력 및 자격
 
-## 주요 프로젝트
-
-자세한 내용은 [Projects](/projects/) 페이지 참조.
-
-<div class="key-project">
-  <span class="key-project-title">거래처 데이터 보강 및 등급 재조정</span> &nbsp;<span class="skill-tag">실무</span><br>
-  <span class="key-project-desc">직관에 의존하던 거래처 등급을 정량 기준으로 전환 — 영업 우선순위 재편의 데이터 근거 마련 (Python / SQL / 카이제곱 검정)</span>
-</div>
-
-<div class="key-project">
-  <span class="key-project-title">로스트아크 경제 시계열 분석</span> &nbsp;<span class="skill-tag">개인</span><br>
-  <span class="key-project-desc">재화 가격 변동 원인을 이벤트 단위로 분해 — 다음 충격 규모를 가늠하는 판단 기준 제공 (Python / LostArk API / 시계열 분석)</span>
-</div>
-
-<div class="key-project">
-  <span class="key-project-title">붉은사막 Steam 리뷰 분석</span> &nbsp;<span class="skill-tag">개인</span><br>
-  <span class="key-project-desc">출시 후 6주 만족도 추세를 외부 AAA 출시작 2종과 정량 비교 — 핫픽스 시점 효과를 시계열 회귀로 입증 (Python / Steam API / NLP)</span>
-</div>
-
 ## 학력
 * **한국방송통신대학교** | 통계·데이터과학과 (2024.09 ~ 재학 중)
 * **숭실대학교 전산원** | 컴퓨터공학과 (2019.03 ~ 2023.08)
