@@ -385,6 +385,24 @@ permalink: /projects/
 </div>
 </div>
 
+### 붉은사막
+
+<div class="project-card">
+<h3>붉은사막 Steam 리뷰 분석</h3>
+<p class="project-impact">출시 후 6주 만족도 추세를 외부 AAA 출시작 2종(Elden Ring·Cyberpunk 2077)과 정량 비교 — 핫픽스 시점 효과를 시계열 회귀로 입증</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">Steam API</span>
+  <span class="tag">NLP</span>
+  <span class="tag">시계열 회귀</span>
+  <span class="tag">통계 검정</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/crimson_desert_review"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://www.notion.so/miniminimin/358fbcdaed28804e92f6c73ecc6fa899?source=copy_link"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg> 리포트</a>
+</div>
+</div>
+
 ### 게임 외
 
 
