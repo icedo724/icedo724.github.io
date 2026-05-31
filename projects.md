@@ -330,12 +330,12 @@ permalink: /projects/
 </div>
 
 <div class="project-card">
-<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v5</span></h3>
-<p class="project-impact">6패치 데이터로 분류·회귀 모델 v5 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
+<h3>Loracle - 리그오브레전드 패치 예측 모델<span class="badge-wip">진행 중</span><span class="badge-wip">모델 버전: v6</span></h3>
+<p class="project-impact">7패치 데이터로 분류·회귀 모델 v6 학습 완료 — 데이터 누적 시 패치 방향 예측 정확도 검증 예정</p>
 <div class="project-progress">
-  <span class="progress-label">진행률 약 29%</span>
-  <div class="progress-bar"><div class="progress-fill" style="width: 29%"></div></div>
-  <span class="progress-note">현재: 7패치분 수집 완료 · 목표 24패치 (1년치)</span>
+  <span class="progress-label">진행률 약 33%</span>
+  <div class="progress-bar"><div class="progress-fill" style="width: 33%"></div></div>
+  <span class="progress-note">현재: 8패치분 수집 완료 · 목표 24패치 (1년치)</span>
 </div>
 <div class="project-tags">
   <span class="tag">Python</span>
