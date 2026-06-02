@@ -248,6 +248,25 @@ permalink: /projects/
 
 ## 개인 프로젝트
 
+### KBO
+
+<div class="project-card" id="project-kbo-bayes">
+<h3>KBO 베이지안 타율·진출확률 추정<span class="badge-live">Live</span></h3>
+<p class="project-impact">시즌 초 타율의 평균회귀를 베이지안 shrinkage로 보정하는 추론 시스템 — 매일 자동 수집·갱신되며, 5개 시즌(2021–2025) walk-forward로 보정 없는 관측 타율(베이스라인) 대비 일관된 우월성을 검증</p>
+<div class="project-tags">
+  <span class="tag">Python</span>
+  <span class="tag">베이지안</span>
+  <span class="tag">Beta-Binomial</span>
+  <span class="tag">Supabase</span>
+  <span class="tag">GitHub Actions</span>
+  <span class="tag">Next.js</span>
+</div>
+<div class="project-links">
+  <a class="project-link" href="https://github.com/icedo724/kbo-bayes"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub</a>
+  <a class="project-link" href="https://kbo-bayes.vercel.app"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg> 대시보드</a>
+</div>
+</div>
+
 ### 로스트아크
 
 <div class="project-card" id="project-loaquant">
